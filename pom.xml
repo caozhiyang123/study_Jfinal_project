@@ -8,24 +8,23 @@
   <name>studyJfinal Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <dependencies>
-  
+	<dependency>
+        <groupId>com.jfinal</groupId>
+        <artifactId>jfinal</artifactId>
+        <version>3.6</version>
+    </dependency>
     <dependency>
 	    <groupId>com.jfinal</groupId>
 	    <artifactId>jfinal-undertow</artifactId>
 	    <version>1.5</version>
 	</dependency>
-	<dependency>
-	    <groupId>com.jfinal</groupId>
-	    <artifactId>jfinal</artifactId>
-	    <version>3.6</version>
-	</dependency>
-	
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>3.8.1</version>
-      <scope>test</scope>
-    </dependency>
+	<!-- <dependency>
+        <groupId>com.jfinal</groupId>
+        <artifactId>jetty-server</artifactId>
+        <version>8.1.8</version>
+        when package war/jar should change 'compile' 2 'provided'
+        <scope>compile</scope>
+    </dependency> -->
   </dependencies>
   <build>
     <finalName>studyJfinal</finalName>

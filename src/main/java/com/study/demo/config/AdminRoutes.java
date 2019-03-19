@@ -3,7 +3,6 @@ package com.study.demo.config;
 import com.jfinal.config.Routes;
 import com.study.demo.controller.AdminController;
 import com.study.demo.controller.UserController;
-import com.study.demo.interceptor.AdminInterceptor;
 
 public class AdminRoutes extends Routes {
     public void config() {

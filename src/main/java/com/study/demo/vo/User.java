@@ -1,7 +1,12 @@
 package com.study.demo.vo;
 
-public class User
+import com.jfinal.plugin.activerecord.IBean;
+import com.jfinal.plugin.activerecord.Model;
+
+public class User<M extends User<M>> extends Model<M> implements IBean
 {
+   private static final long serialVersionUID = 1L;
+   
    private long id;
    private String name;
    private long facebookId;

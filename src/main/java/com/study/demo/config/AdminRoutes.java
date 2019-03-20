@@ -7,6 +7,7 @@ import com.study.demo.controller.UserController;
 public class AdminRoutes extends Routes {
     public void config() {
        add("/admin", AdminController.class,"login/name-pass");
-       add("/user", UserController.class,"list");
+       add("/user_query", UserController.class,"list");
+       add("/user_save", UserController.class,"save/name-facebookId");
     }
 }

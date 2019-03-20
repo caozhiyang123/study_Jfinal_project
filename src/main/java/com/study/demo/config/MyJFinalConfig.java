@@ -17,6 +17,7 @@ import com.study.demo.interceptor.LoginInterceptor;
 public class MyJFinalConfig extends JFinalConfig {
     
     public void configRoute(Routes me) {
+        //希望Contorller类的超类中的方法也被映射为 action,可以设置true,一般设置false
        me.setMappingSuperClass(false);
        me.add(new FrontRoutes());  // front route
        me.add(new AdminRoutes());  // server route
@@ -56,7 +57,7 @@ public class MyJFinalConfig extends JFinalConfig {
      * global interceptor
      */
     public void configInterceptor(Interceptors me) {
-        me.add(new LoginInterceptor());
+//        me.add(new LoginInterceptor());
     }
     
     /**

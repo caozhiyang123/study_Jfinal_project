@@ -31,7 +31,7 @@ public class LoginInterceptor implements Interceptor {
                     controller.renderJson(result);
                     return;
                 }
-                controller.render("/views/login.html");
+                controller.render("/view/login.html");
                 return;
             }
 

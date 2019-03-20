@@ -1,9 +1,8 @@
 package com.study.demo.vo;
 
-import com.jfinal.plugin.activerecord.IBean;
-import com.jfinal.plugin.activerecord.Model;
+import java.io.Serializable;
 
-public class User<M extends User<M>> extends Model<M> implements IBean
+public class User implements Serializable
 {
    private static final long serialVersionUID = 1L;
    

@@ -1,8 +1,6 @@
 package com.study.demo.controller;
 
-import com.jfinal.core.Controller;
-
-public class BlogController extends Controller
+public class BlogController extends BaseController
 {
     public void index(){
         render("blog.html");

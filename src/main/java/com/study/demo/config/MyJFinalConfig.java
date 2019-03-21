@@ -12,7 +12,7 @@ import com.jfinal.plugin.activerecord.ActiveRecordPlugin;
 import com.jfinal.plugin.druid.DruidPlugin;
 import com.jfinal.server.undertow.UndertowServer;
 import com.jfinal.template.Engine;
-import com.study.demo.interceptor.LoginInterceptor;
+import com.study.demo.model.MappingKit;
 
 public class MyJFinalConfig extends JFinalConfig {
     
@@ -28,7 +28,7 @@ public class MyJFinalConfig extends JFinalConfig {
         PropKit.use("properties/application.properties");
         me.setDevMode(PropKit.getBoolean("DEV_MODE"));
         me.setError500View("/view/500.html");
-        me.setError404View("/view/400.html");
+        me.setError404View("/view/404.html");
     }
     
     public void configEngine(Engine me) {
@@ -47,6 +47,9 @@ public class MyJFinalConfig extends JFinalConfig {
         ActiveRecordPlugin arp_core = new ActiveRecordPlugin("core", core);
         arp_core.setShowSql(true);
         me.add(arp_core);
+        
+     // ActiveRecordPlugin mapping 2 db(VO)
+        MappingKit.mapping(arp_core);
     }
     
     public static DruidPlugin createC3p0Plugin() {

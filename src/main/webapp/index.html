@@ -1,5 +1,78 @@
 <html>
-<body>
-<h2>Hello World!!!!</h2>
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <script src="js/jquery-easyui-1.5.1/jquery-3.3.1.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" 
+	    integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" 
+	    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+<body style="padding: 10px">
+   <div align="center" id="myModal">
+       <span class="btn btn-success fileinput-button">
+           <div>upload</div>
+           <input name="upload_file" type="file">
+       </span>
+   </div>
+    
+    <script type="text/javascript">
+	    $(function () {
+	        //0.初始化fileinput
+	        var oFileInput = new FileInput();
+	        oFileInput.Init("upload_file", "/file/upload");
+	    });
+	    
+	    var FileInput = function () {
+	    	var oFile = new Object();
+	    	
+	    	oFile.Init = function(ctrlName, uploadUrl) {
+	    	var control = $('#' + ctrlName);
+	    	
+	    	 control.fileinput({
+	    		 language: 'zh', //设置语言
+	             uploadUrl: uploadUrl, //上传的地址
+	             allowedFileExtensions : ['jpg', 'png','gif','excel'],//接收的文件后缀
+	             showUpload: true, //是否显示上传按钮
+	             showCaption: true,//是否显示标题
+	             maxFileCount: 10, //表示允许同时上传的最大文件个数
+	             enctype: 'multipart/form-data',
+	             validateInitialCount:true,
+	             previewFileIcon: "<i class='glyphicon glyphicon-king'></i>", 
+	             msgFilesTooMany: "选择上传的文件数量({n}) 超过允许的最大数值{m}！"
+	    	    });
+	
+	    	    //导入文件上传完成之后的事件
+	    	    $("#upload_file").on("fileuploaded", function (event, data, previewId, index) {
+	    	        $("#myModal").modal("hide");
+	    	        var data = data.response.lstOrderImport;
+	    	        if (data == undefined) {
+	    	            toastr.error('文件格式类型不正确');
+	    	            return;
+	    	        }
+	    	        //1.初始化表格
+	    	        /* var oTable = new TableInit();
+	    	        oTable.Init(data);
+	    	        $("#div_startimport").show(); */
+	    	    });
+	    	};
+	    	    return oFile;
+	    };
+    </script>
+    <style>
+        .fileinput-button {
+            position: relative;
+            display: inline-block;
+            overflow: hidden;
+        }
+
+        .fileinput-button input{
+            position:absolute;
+            right: 0px;
+            top: 0px;
+            opacity: 0;
+            -ms-filter: 'alpha(opacity=0)';
+            font-size: 200px;
+        }
+    </style>
 </body>
 </html>

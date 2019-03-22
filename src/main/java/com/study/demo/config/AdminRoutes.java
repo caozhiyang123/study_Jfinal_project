@@ -13,5 +13,7 @@ public class AdminRoutes extends Routes {
        add("/user_login", UserController.class,"login");
        add("/user_save", UserController.class,"save");
        add("/file",FileController.class,"upload");
+       add("/file/load",FileController.class,"uploadSuccess");
+       add("file/down",FileController.class,"downTempFile/fileName");
     }
 }

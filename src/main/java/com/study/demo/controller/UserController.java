@@ -34,6 +34,12 @@ public class UserController extends Controller
 //        User user = getModel(User.class);
         User user = getBean(User.class);
         user = user.findFirst("select * from user where name = ? and pass = ?", user.getName(),user.getPass());
-        renderJson(user.getId()!=null?"login success "+user.toString():"login fail");
+        if(user !=null && user.getId() != null){
+            setSessionAttr("user", user);
+//            render(getAttr("url")!=null?getAttr("url").toString():"/index.html");
+            redirect(getAttr("url")!=null?getAttr("url").toString():"/index.html");
+        }else{
+            renderHtml("<script>alert('login failed');location.href='/view/login.html'</script>");
+        }
     }
 }

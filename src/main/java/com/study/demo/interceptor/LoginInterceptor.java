@@ -20,7 +20,7 @@ public class LoginInterceptor implements Interceptor {
         Boolean isAjax = !StrKit.isBlank(controller.getRequest().getHeader("X-Requested-With"));
         String methodName = inv.getMethodName();
 
-        if ("login".equals(methodName) || "logout".equals(methodName) || "removeAllLoginUser".equals(methodName)) {
+        if ("login".equals(methodName)  || "logout".equals(methodName) || "removeAllLoginUser".equals(methodName)) {
             inv.invoke();
         } else {
             User user = controller.getSessionAttr("user");
@@ -31,10 +31,10 @@ public class LoginInterceptor implements Interceptor {
                     controller.renderJson(result);
                     return;
                 }
+                controller.setAttr("url", inv.getActionKey()+controller.getParaMap());
                 controller.render("/view/login.html");
                 return;
             }
-
             controller.setAttr("user", controller.getSessionAttr("user"));
             inv.invoke();
         }

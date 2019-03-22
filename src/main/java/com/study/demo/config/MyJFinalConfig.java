@@ -13,6 +13,7 @@ import com.jfinal.plugin.druid.DruidPlugin;
 import com.jfinal.render.ViewType;
 import com.jfinal.server.undertow.UndertowServer;
 import com.jfinal.template.Engine;
+import com.study.demo.interceptor.LoginInterceptor;
 import com.study.demo.mapping.MappingKit;
 
 public class MyJFinalConfig extends JFinalConfig {
@@ -60,7 +61,7 @@ public class MyJFinalConfig extends JFinalConfig {
      * global interceptor
      */
     public void configInterceptor(Interceptors me) {
-//        me.add(new LoginInterceptor());
+        me.add(new LoginInterceptor());
     }
     
     /**
@@ -72,12 +73,11 @@ public class MyJFinalConfig extends JFinalConfig {
     
     public static void main(String[] args) {
         /**
-         * �ر�ע�⣺IDEA ֮�½����������ʽ������ eclipse ֮���������һ������
-         * JFinal 3.2�汾��������ʽ
+         * JFinal 3.2V
          */
 //        JFinal.start("src/main/webapp", 80, "/");
         /**
-         * JFinal 3.6�汾������ʽ
+         * JFinal 3.6V
          */
         UndertowServer.start(MyJFinalConfig.class, 80, true);
     }

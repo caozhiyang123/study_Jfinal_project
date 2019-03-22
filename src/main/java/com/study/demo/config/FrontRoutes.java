@@ -8,5 +8,6 @@ public class FrontRoutes extends Routes {
        add("/index", BaseController.class,"/renderIndex");
        add("/log", BaseController.class,"/renderBlog");
        add("/user", BaseController.class,"/renderLogin");
+       add("/generate", BaseController.class,"/QrCode");
     }
 }

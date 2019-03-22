@@ -14,4 +14,8 @@ public class BaseController extends Controller
         render("../view/login.html");
     }
     
+    public void QrCode(){
+        renderQrCode("content", 100, 100);
+    }
+    
 }

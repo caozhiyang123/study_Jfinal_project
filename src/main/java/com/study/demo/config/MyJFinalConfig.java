@@ -10,21 +10,21 @@ import com.jfinal.ext.handler.ContextPathHandler;
 import com.jfinal.kit.PropKit;
 import com.jfinal.plugin.activerecord.ActiveRecordPlugin;
 import com.jfinal.plugin.druid.DruidPlugin;
+import com.jfinal.render.ViewType;
 import com.jfinal.server.undertow.UndertowServer;
 import com.jfinal.template.Engine;
-import com.study.demo.model.MappingKit;
+import com.study.demo.mapping.MappingKit;
 
 public class MyJFinalConfig extends JFinalConfig {
     
     public void configRoute(Routes me) {
-        //Ï£ÍûContorllerÀàµÄ³¬ÀàÖÐµÄ·½·¨Ò²±»Ó³ÉäÎª action,¿ÉÒÔÉèÖÃtrue,Ò»°ãÉèÖÃfalse
        me.setMappingSuperClass(false);
        me.add(new FrontRoutes());  // front route
        me.add(new AdminRoutes());  // server route
     }
     
     public void configConstant(Constants me) {
-     // loading a little config,then can by method PropKit.get(...) get value
+        // loading a little config,then can by method PropKit.get(...) get value
         PropKit.use("properties/application.properties");
         me.setDevMode(PropKit.getBoolean("DEV_MODE"));
         me.setError500View("/view/500.html");
@@ -72,12 +72,12 @@ public class MyJFinalConfig extends JFinalConfig {
     
     public static void main(String[] args) {
         /**
-         * ÌØ±ð×¢Òâ£ºIDEA Ö®ÏÂ½¨ÒéµÄÆô¶¯·½Ê½£¬½ö±È eclipse Ö®ÏÂÉÙÁË×îºóÒ»¸ö²ÎÊý
-         * JFinal 3.2°æ±¾µÄÆô¶¯·½Ê½
+         * ï¿½Ø±ï¿½×¢ï¿½â£ºIDEA Ö®ï¿½Â½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ eclipse Ö®ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+         * JFinal 3.2ï¿½æ±¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê½
          */
 //        JFinal.start("src/main/webapp", 80, "/");
         /**
-         * JFinal 3.6°æ±¾Æô¶¯·½Ê½
+         * JFinal 3.6ï¿½æ±¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê½
          */
         UndertowServer.start(MyJFinalConfig.class, 80, true);
     }

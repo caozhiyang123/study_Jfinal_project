@@ -1,4 +1,4 @@
-package com.study.demo.model;
+package com.study.demo.mapping;
 
 import com.jfinal.plugin.activerecord.ActiveRecordPlugin;
 import com.study.demo.vo.User;

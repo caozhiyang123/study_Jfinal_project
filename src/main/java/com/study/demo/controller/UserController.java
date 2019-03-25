@@ -2,13 +2,16 @@ package com.study.demo.controller;
 
 import java.util.List;
 
+import com.alibaba.druid.support.json.JSONUtils;
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
 import com.jfinal.aop.Inject;
 import com.jfinal.core.Controller;
 import com.jfinal.core.paragetter.Para;
 import com.jfinal.json.FastJson;
+import com.jfinal.plugin.activerecord.Page;
 import com.mysql.jdbc.StringUtils;
+import com.study.demo.io.PageContent;
 import com.study.demo.model.User;
 import com.study.demo.service.BaseService;
 import com.study.demo.service.UserService;
@@ -31,7 +34,7 @@ public class UserController extends Controller
     
     public void save(){
        User user = getModel(User.class);
-       boolean flag = user.save();
+       boolean flag = service.save(user);
        renderJson(flag?"success":"fail");
     }
     
@@ -47,5 +50,15 @@ public class UserController extends Controller
         }else{
             renderHtml("<script>alert('login failed');location.href='/view/login.html'</script>");
         }
+    }
+    
+    public  void pageQuery(){
+        Page<User> users = service.pageQuery(Integer.parseInt(get("pageNum")), Integer.parseInt(get("pageSize")));
+        int page_count = users.getTotalPage();
+        List<User> page_content = users.getList();
+        PageContent pageContent = new PageContent();
+        pageContent.setPageCount(page_count);
+        pageContent.setPageContent(page_content);
+        renderJson(pageContent);
     }
 }

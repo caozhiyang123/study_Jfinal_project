@@ -11,6 +11,7 @@ public class AdminRoutes extends Routes {
        add("/admin", AdminController.class,"login/name-pass");
        add("/user_all", UserController.class,"list");
        add("/user_query", UserController.class,"queryById");
+       add("/user/page", UserController.class,"pageQuery");
        add("/user_login", UserController.class,"login");
        add("/user_save", UserController.class,"save");
        add("/file",FileController.class,"upload");

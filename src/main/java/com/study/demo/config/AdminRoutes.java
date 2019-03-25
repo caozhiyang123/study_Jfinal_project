@@ -4,6 +4,7 @@ import com.jfinal.config.Routes;
 import com.study.demo.controller.AdminController;
 import com.study.demo.controller.FileController;
 import com.study.demo.controller.UserController;
+import com.study.demo.interceptor.LoginInterceptor;
 
 public class AdminRoutes extends Routes {
     public void config() {

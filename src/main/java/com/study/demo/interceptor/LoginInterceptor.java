@@ -5,7 +5,7 @@ import com.jfinal.aop.Invocation;
 import com.jfinal.core.Controller;
 import com.jfinal.kit.StrKit;
 import com.study.demo.io.Result;
-import com.study.demo.vo.User;
+import com.study.demo.model.User;
 
 
 /**
@@ -31,10 +31,11 @@ public class LoginInterceptor implements Interceptor {
                     controller.renderJson(result);
                     return;
                 }
-                controller.setAttr("url", inv.getActionKey()+controller.getParaMap());
+                controller.setSessionAttr("url", inv.getActionKey());
                 controller.render("/view/login.html");
                 return;
             }
+            controller.setSessionAttr("url", inv.getActionKey());
             controller.setAttr("user", controller.getSessionAttr("user"));
             inv.invoke();
         }

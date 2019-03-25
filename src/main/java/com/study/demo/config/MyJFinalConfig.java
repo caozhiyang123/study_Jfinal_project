@@ -14,7 +14,7 @@ import com.jfinal.render.ViewType;
 import com.jfinal.server.undertow.UndertowServer;
 import com.jfinal.template.Engine;
 import com.study.demo.interceptor.LoginInterceptor;
-import com.study.demo.mapping.MappingKit;
+import com.study.demo.model._MappingKit;
 
 public class MyJFinalConfig extends JFinalConfig {
     
@@ -30,6 +30,8 @@ public class MyJFinalConfig extends JFinalConfig {
         me.setDevMode(PropKit.getBoolean("DEV_MODE"));
         me.setError500View("/view/500.html");
         me.setError404View("/view/404.html");
+        //use inject
+        me.setInjectDependency(true);
     }
     
     public void configEngine(Engine me) {
@@ -50,7 +52,7 @@ public class MyJFinalConfig extends JFinalConfig {
         me.add(arp_core);
         
      // ActiveRecordPlugin mapping 2 db(VO)
-        MappingKit.mapping(arp_core);
+        _MappingKit.mapping(arp_core);
     }
     
     public static DruidPlugin createC3p0Plugin() {
@@ -61,6 +63,7 @@ public class MyJFinalConfig extends JFinalConfig {
      * global interceptor
      */
     public void configInterceptor(Interceptors me) {
+        //global interceptor
         me.add(new LoginInterceptor());
     }
     

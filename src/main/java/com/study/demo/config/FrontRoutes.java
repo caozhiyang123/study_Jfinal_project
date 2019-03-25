@@ -5,9 +5,10 @@ import com.study.demo.controller.BaseController;
 
 public class FrontRoutes extends Routes {
     public void config() {
-       add("/index", BaseController.class,"/renderIndex");
-       add("/log", BaseController.class,"/renderBlog");
-       add("/user", BaseController.class,"/renderLogin");
+       setMappingSuperClass(false);
+       add("/index", BaseController.class);
+       add("/login", BaseController.class);
+       add("/register", BaseController.class);
        add("/generate", BaseController.class,"/QrCode");
     }
 }

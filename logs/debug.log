@@ -1,0 +1,22 @@
+25 三月 2019 | 18:00:47,087 | DEBUG | XNIO-1 I/O-8 | io.undertow.request |     | Matched default handler path /index
+25 三月 2019 | 18:00:47,110 | DEBUG | XNIO-1 task-1 | undertow.request.security |     | Attempting to authenticate /index, authentication required: false
+25 三月 2019 | 18:00:47,114 | DEBUG | XNIO-1 task-1 | undertow.request.security |     | Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@407530a7 for /index
+25 三月 2019 | 18:00:47,115 | DEBUG | XNIO-1 task-1 | undertow.request.security |     | Authentication result was ATTEMPTED for /index
+25 三月 2019 | 18:00:47,136 | DEBUG | XNIO-1 task-1 | io.undertow.session |     | Created session with id OJ-jpeh7MlO4BzTA5dQHbrqYJSz2NErQEHaA4cPP for exchange HttpServerExchange{ GET /index request {Accept=[text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8], Accept-Language=[zh-CN,zh;q=0.9], Cache-Control=[max-age=0], Accept-Encoding=[gzip, deflate, br], User-Agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36], Connection=[keep-alive], Cookie=[JSESSIONID=s6RsMcyGl0ZfIXnKkdOZVEjZpG8_yR5_HgWQymeG], Upgrade-Insecure-Requests=[1], Host=[127.0.0.1]} response {Server=[JFinal]}}
+25 三月 2019 | 18:00:50,698 | DEBUG | XNIO-1 I/O-8 | io.undertow.request |     | Matched default handler path /user_login/login
+25 三月 2019 | 18:00:50,700 | DEBUG | XNIO-1 task-2 | undertow.request.security |     | Attempting to authenticate /user_login/login, authentication required: false
+25 三月 2019 | 18:00:50,701 | DEBUG | XNIO-1 task-2 | undertow.request.security |     | Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@407530a7 for /user_login/login
+25 三月 2019 | 18:00:50,702 | DEBUG | XNIO-1 task-2 | undertow.request.security |     | Authentication result was ATTEMPTED for /user_login/login
+25 三月 2019 | 18:00:50,738 | DEBUG | XNIO-1 I/O-8 | io.undertow.request |     | Matched default handler path /index
+25 三月 2019 | 18:00:50,740 | DEBUG | XNIO-1 task-3 | undertow.request.security |     | Attempting to authenticate /index, authentication required: false
+25 三月 2019 | 18:00:50,740 | DEBUG | XNIO-1 task-3 | undertow.request.security |     | Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@407530a7 for /index
+25 三月 2019 | 18:00:50,741 | DEBUG | XNIO-1 task-3 | undertow.request.security |     | Authentication result was ATTEMPTED for /index
+25 三月 2019 | 18:00:50,763 | DEBUG | XNIO-1 I/O-8 | io.undertow.request |     | Matched default handler path /generate/QrCode
+25 三月 2019 | 18:00:50,764 | DEBUG | XNIO-1 task-4 | undertow.request.security |     | Attempting to authenticate /generate/QrCode, authentication required: false
+25 三月 2019 | 18:00:50,765 | DEBUG | XNIO-1 task-4 | undertow.request.security |     | Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@407530a7 for /generate/QrCode
+25 三月 2019 | 18:00:50,765 | DEBUG | XNIO-1 task-4 | undertow.request.security |     | Authentication result was ATTEMPTED for /generate/QrCode
+25 三月 2019 | 18:00:50,870 | DEBUG | XNIO-1 I/O-8 | io.undertow.request |     | Matched default handler path /user/page/pageQuery
+25 三月 2019 | 18:00:50,872 | DEBUG | XNIO-1 task-5 | undertow.request.security |     | Attempting to authenticate /user/page/pageQuery, authentication required: false
+25 三月 2019 | 18:00:50,873 | DEBUG | XNIO-1 task-5 | undertow.request.security |     | Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@407530a7 for /user/page/pageQuery
+25 三月 2019 | 18:00:50,873 | DEBUG | XNIO-1 task-5 | undertow.request.security |     | Authentication result was ATTEMPTED for /user/page/pageQuery
+25 三月 2019 | 18:01:50,933 | DEBUG | XNIO-1 I/O-8 | io.undertow.request |     | Timing out idle connection from /127.0.0.1:25127

@@ -75,6 +75,7 @@ public class MyJFinalConfig extends JFinalConfig {
     }
     
     public static void main(String[] args) {
+        System.setProperty("WORKDIR", "logs");
         /**
          * JFinal 3.2V
          */

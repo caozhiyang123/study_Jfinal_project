@@ -164,3 +164,427 @@
 26 三月 2019 | 11:04:59,785 | DEBUG | XNIO-1 task-2 | undertow.request.security |     | Attempting to authenticate /user/page/pageQuery, authentication required: false
 26 三月 2019 | 11:04:59,785 | DEBUG | XNIO-1 task-2 | undertow.request.security |     | Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@407530a7 for /user/page/pageQuery
 26 三月 2019 | 11:04:59,785 | DEBUG | XNIO-1 task-2 | undertow.request.security |     | Authentication result was ATTEMPTED for /user/page/pageQuery
+26 三月 2019 | 11:05:59,837 | DEBUG | XNIO-1 I/O-2 | io.undertow.request |     | Timing out idle connection from /127.0.0.1:58353
+26 三月 2019 | 11:12:27,767 | INFO  | HotSwapWatcher | druid.pool.DruidDataSource |     | {dataSource-1} closed
+26 三月 2019 | 11:12:27,824 | DEBUG | HotSwapWatcher | io.undertow |     | stopping undertow server io.undertow.Undertow@5a5a729f
+26 三月 2019 | 11:12:27,851 | DEBUG | HotSwapWatcher | io.undertow.session |     | Setting default session timeout to 1800
+26 三月 2019 | 11:12:27,851 | DEBUG | HotSwapWatcher | io.undertow.session |     | Registered session listener io.undertow.servlet.core.SessionListenerBridge@2c094341
+26 三月 2019 | 11:12:27,986 | INFO  | HotSwapWatcher | druid.pool.DruidDataSource |     | {dataSource-2} inited
+26 三月 2019 | 11:15:17,943 | DEBUG | main | org.jboss.logging |     | Logging Provider: org.jboss.logging.Log4jLoggerProvider
+26 三月 2019 | 11:15:17,994 | DEBUG | main | io.undertow.session |     | Setting default session timeout to 1800
+26 三月 2019 | 11:15:18,003 | DEBUG | main | io.undertow.session |     | Registered session listener io.undertow.servlet.core.SessionListenerBridge@49e202ad
+26 三月 2019 | 11:15:18,332 | INFO  | main | druid.pool.DruidDataSource |     | {dataSource-1} inited
+26 三月 2019 | 11:16:46,943 | DEBUG | main | org.jboss.logging |     | Logging Provider: org.jboss.logging.Log4jLoggerProvider
+26 三月 2019 | 11:16:47,006 | DEBUG | main | io.undertow.session |     | Setting default session timeout to 1800
+26 三月 2019 | 11:16:47,013 | DEBUG | main | io.undertow.session |     | Registered session listener io.undertow.servlet.core.SessionListenerBridge@49e202ad
+26 三月 2019 | 11:16:47,350 | INFO  | main | druid.pool.DruidDataSource |     | {dataSource-1} inited
+26 三月 2019 | 11:17:34,085 | DEBUG | main | org.jboss.logging |     | Logging Provider: org.jboss.logging.Log4jLoggerProvider
+26 三月 2019 | 11:17:34,149 | DEBUG | main | io.undertow.session |     | Setting default session timeout to 1800
+26 三月 2019 | 11:17:34,155 | DEBUG | main | io.undertow.session |     | Registered session listener io.undertow.servlet.core.SessionListenerBridge@49e202ad
+26 三月 2019 | 11:17:34,481 | INFO  | main | druid.pool.DruidDataSource |     | {dataSource-1} inited
+26 三月 2019 | 11:18:03,030 | DEBUG | main | org.jboss.logging |     | Logging Provider: org.jboss.logging.Log4jLoggerProvider
+26 三月 2019 | 11:18:03,086 | DEBUG | main | io.undertow.session |     | Setting default session timeout to 1800
+26 三月 2019 | 11:18:03,092 | DEBUG | main | io.undertow.session |     | Registered session listener io.undertow.servlet.core.SessionListenerBridge@49e202ad
+26 三月 2019 | 11:18:03,425 | INFO  | main | druid.pool.DruidDataSource |     | {dataSource-1} inited
+26 三月 2019 | 11:18:03,467 | DEBUG | main | io.undertow |     | starting undertow server io.undertow.Undertow@1e4f4a5c
+26 三月 2019 | 11:18:03,474 | INFO  | main | org.xnio |     | XNIO version 3.3.8.Final
+26 三月 2019 | 11:18:03,485 | INFO  | main | org.xnio.nio |     | XNIO NIO Implementation Version 3.3.8.Final
+26 三月 2019 | 11:18:03,610 | DEBUG | XNIO-1 I/O-3 | org.xnio.nio |     | Started channel thread 'XNIO-1 I/O-3', selector sun.nio.ch.WindowsSelectorImpl@736c7261
+26 三月 2019 | 11:18:03,610 | DEBUG | XNIO-1 I/O-4 | org.xnio.nio |     | Started channel thread 'XNIO-1 I/O-4', selector sun.nio.ch.WindowsSelectorImpl@921a18d
+26 三月 2019 | 11:18:03,610 | DEBUG | XNIO-1 I/O-2 | org.xnio.nio |     | Started channel thread 'XNIO-1 I/O-2', selector sun.nio.ch.WindowsSelectorImpl@157cfe44
+26 三月 2019 | 11:18:03,610 | DEBUG | XNIO-1 I/O-5 | org.xnio.nio |     | Started channel thread 'XNIO-1 I/O-5', selector sun.nio.ch.WindowsSelectorImpl@7eff239d
+26 三月 2019 | 11:18:03,610 | DEBUG | XNIO-1 I/O-1 | org.xnio.nio |     | Started channel thread 'XNIO-1 I/O-1', selector sun.nio.ch.WindowsSelectorImpl@25f1034b
+26 三月 2019 | 11:18:03,611 | DEBUG | XNIO-1 Accept | org.xnio.nio |     | Started channel thread 'XNIO-1 Accept', selector sun.nio.ch.WindowsSelectorImpl@6814964
+26 三月 2019 | 11:18:03,611 | DEBUG | XNIO-1 I/O-8 | org.xnio.nio |     | Started channel thread 'XNIO-1 I/O-8', selector sun.nio.ch.WindowsSelectorImpl@4d3c40e0
+26 三月 2019 | 11:18:03,611 | DEBUG | XNIO-1 I/O-7 | org.xnio.nio |     | Started channel thread 'XNIO-1 I/O-7', selector sun.nio.ch.WindowsSelectorImpl@1e211b5b
+26 三月 2019 | 11:18:03,610 | DEBUG | XNIO-1 I/O-6 | org.xnio.nio |     | Started channel thread 'XNIO-1 I/O-6', selector sun.nio.ch.WindowsSelectorImpl@605ba4d6
+26 三月 2019 | 11:18:03,614 | DEBUG | main | io.undertow |     | Configuring listener with protocol HTTP for interface localhost and port 80
+26 三月 2019 | 11:18:23,604 | INFO  | HotSwapWatcher | druid.pool.DruidDataSource |     | {dataSource-1} closed
+26 三月 2019 | 11:18:23,606 | DEBUG | HotSwapWatcher | io.undertow |     | stopping undertow server io.undertow.Undertow@1e4f4a5c
+26 三月 2019 | 11:18:23,632 | DEBUG | HotSwapWatcher | io.undertow.session |     | Setting default session timeout to 1800
+26 三月 2019 | 11:18:23,633 | DEBUG | HotSwapWatcher | io.undertow.session |     | Registered session listener io.undertow.servlet.core.SessionListenerBridge@10c8f642
+26 三月 2019 | 11:18:23,676 | INFO  | HotSwapWatcher | druid.pool.DruidDataSource |     | {dataSource-2} inited
+26 三月 2019 | 11:18:23,708 | DEBUG | HotSwapWatcher | io.undertow |     | starting undertow server io.undertow.Undertow@6acb90e
+26 三月 2019 | 11:18:23,713 | DEBUG | XNIO-2 I/O-1 | org.xnio.nio |     | Started channel thread 'XNIO-2 I/O-1', selector sun.nio.ch.WindowsSelectorImpl@40d24d1b
+26 三月 2019 | 11:18:23,713 | DEBUG | HotSwapWatcher | io.undertow |     | Configuring listener with protocol HTTP for interface localhost and port 80
+26 三月 2019 | 11:18:23,713 | DEBUG | XNIO-2 I/O-4 | org.xnio.nio |     | Started channel thread 'XNIO-2 I/O-4', selector sun.nio.ch.WindowsSelectorImpl@5f858def
+26 三月 2019 | 11:18:23,713 | DEBUG | XNIO-2 I/O-6 | org.xnio.nio |     | Started channel thread 'XNIO-2 I/O-6', selector sun.nio.ch.WindowsSelectorImpl@5ba98a72
+26 三月 2019 | 11:18:23,713 | DEBUG | XNIO-2 I/O-5 | org.xnio.nio |     | Started channel thread 'XNIO-2 I/O-5', selector sun.nio.ch.WindowsSelectorImpl@15fba25
+26 三月 2019 | 11:18:23,713 | DEBUG | XNIO-2 I/O-3 | org.xnio.nio |     | Started channel thread 'XNIO-2 I/O-3', selector sun.nio.ch.WindowsSelectorImpl@18fffeb9
+26 三月 2019 | 11:18:23,713 | DEBUG | XNIO-2 I/O-2 | org.xnio.nio |     | Started channel thread 'XNIO-2 I/O-2', selector sun.nio.ch.WindowsSelectorImpl@6c5babeb
+26 三月 2019 | 11:18:23,714 | DEBUG | XNIO-2 I/O-7 | org.xnio.nio |     | Started channel thread 'XNIO-2 I/O-7', selector sun.nio.ch.WindowsSelectorImpl@63f324f5
+26 三月 2019 | 11:18:23,714 | DEBUG | XNIO-2 I/O-8 | org.xnio.nio |     | Started channel thread 'XNIO-2 I/O-8', selector sun.nio.ch.WindowsSelectorImpl@4b6d2231
+26 三月 2019 | 11:18:23,714 | DEBUG | XNIO-2 Accept | org.xnio.nio |     | Started channel thread 'XNIO-2 Accept', selector sun.nio.ch.WindowsSelectorImpl@4638332b
+26 三月 2019 | 11:21:02,448 | INFO  | HotSwapWatcher | druid.pool.DruidDataSource |     | {dataSource-2} closed
+26 三月 2019 | 11:21:02,449 | DEBUG | HotSwapWatcher | io.undertow |     | stopping undertow server io.undertow.Undertow@6acb90e
+26 三月 2019 | 11:21:02,461 | DEBUG | HotSwapWatcher | io.undertow.session |     | Setting default session timeout to 1800
+26 三月 2019 | 11:21:02,462 | DEBUG | HotSwapWatcher | io.undertow.session |     | Registered session listener io.undertow.servlet.core.SessionListenerBridge@6790b74b
+26 三月 2019 | 11:21:02,524 | INFO  | HotSwapWatcher | druid.pool.DruidDataSource |     | {dataSource-3} inited
+26 三月 2019 | 11:21:02,567 | DEBUG | HotSwapWatcher | io.undertow |     | starting undertow server io.undertow.Undertow@1773f2f5
+26 三月 2019 | 11:21:02,578 | DEBUG | XNIO-3 I/O-1 | org.xnio.nio |     | Started channel thread 'XNIO-3 I/O-1', selector sun.nio.ch.WindowsSelectorImpl@58a681ac
+26 三月 2019 | 11:21:02,579 | DEBUG | XNIO-3 I/O-7 | org.xnio.nio |     | Started channel thread 'XNIO-3 I/O-7', selector sun.nio.ch.WindowsSelectorImpl@7f5f7296
+26 三月 2019 | 11:21:02,579 | DEBUG | XNIO-3 I/O-8 | org.xnio.nio |     | Started channel thread 'XNIO-3 I/O-8', selector sun.nio.ch.WindowsSelectorImpl@7eb8260e
+26 三月 2019 | 11:21:02,579 | DEBUG | XNIO-3 I/O-6 | org.xnio.nio |     | Started channel thread 'XNIO-3 I/O-6', selector sun.nio.ch.WindowsSelectorImpl@6f143efc
+26 三月 2019 | 11:21:02,579 | DEBUG | XNIO-3 I/O-5 | org.xnio.nio |     | Started channel thread 'XNIO-3 I/O-5', selector sun.nio.ch.WindowsSelectorImpl@6abec8b3
+26 三月 2019 | 11:21:02,579 | DEBUG | XNIO-3 Accept | org.xnio.nio |     | Started channel thread 'XNIO-3 Accept', selector sun.nio.ch.WindowsSelectorImpl@13b13cf4
+26 三月 2019 | 11:21:02,579 | DEBUG | XNIO-3 I/O-2 | org.xnio.nio |     | Started channel thread 'XNIO-3 I/O-2', selector sun.nio.ch.WindowsSelectorImpl@5913835b
+26 三月 2019 | 11:21:02,579 | DEBUG | XNIO-3 I/O-4 | org.xnio.nio |     | Started channel thread 'XNIO-3 I/O-4', selector sun.nio.ch.WindowsSelectorImpl@5c7c1002
+26 三月 2019 | 11:21:02,579 | DEBUG | HotSwapWatcher | io.undertow |     | Configuring listener with protocol HTTP for interface localhost and port 80
+26 三月 2019 | 11:21:02,579 | DEBUG | XNIO-3 I/O-3 | org.xnio.nio |     | Started channel thread 'XNIO-3 I/O-3', selector sun.nio.ch.WindowsSelectorImpl@70ab3198
+26 三月 2019 | 11:21:15,563 | INFO  | HotSwapWatcher | druid.pool.DruidDataSource |     | {dataSource-3} closed
+26 三月 2019 | 11:21:15,564 | DEBUG | HotSwapWatcher | io.undertow |     | stopping undertow server io.undertow.Undertow@1773f2f5
+26 三月 2019 | 11:21:15,577 | DEBUG | HotSwapWatcher | io.undertow.session |     | Setting default session timeout to 1800
+26 三月 2019 | 11:21:15,578 | DEBUG | HotSwapWatcher | io.undertow.session |     | Registered session listener io.undertow.servlet.core.SessionListenerBridge@5dec17eb
+26 三月 2019 | 11:21:15,639 | INFO  | HotSwapWatcher | druid.pool.DruidDataSource |     | {dataSource-4} inited
+26 三月 2019 | 11:21:15,669 | DEBUG | HotSwapWatcher | io.undertow |     | starting undertow server io.undertow.Undertow@5bfc6873
+26 三月 2019 | 11:21:15,674 | DEBUG | XNIO-4 I/O-2 | org.xnio.nio |     | Started channel thread 'XNIO-4 I/O-2', selector sun.nio.ch.WindowsSelectorImpl@5536040e
+26 三月 2019 | 11:21:15,674 | DEBUG | XNIO-4 I/O-6 | org.xnio.nio |     | Started channel thread 'XNIO-4 I/O-6', selector sun.nio.ch.WindowsSelectorImpl@3173874b
+26 三月 2019 | 11:21:15,674 | DEBUG | XNIO-4 Accept | org.xnio.nio |     | Started channel thread 'XNIO-4 Accept', selector sun.nio.ch.WindowsSelectorImpl@d3a3d24
+26 三月 2019 | 11:21:15,674 | DEBUG | XNIO-4 I/O-4 | org.xnio.nio |     | Started channel thread 'XNIO-4 I/O-4', selector sun.nio.ch.WindowsSelectorImpl@148002fd
+26 三月 2019 | 11:21:15,674 | DEBUG | XNIO-4 I/O-7 | org.xnio.nio |     | Started channel thread 'XNIO-4 I/O-7', selector sun.nio.ch.WindowsSelectorImpl@6b60bc1c
+26 三月 2019 | 11:21:15,674 | DEBUG | XNIO-4 I/O-8 | org.xnio.nio |     | Started channel thread 'XNIO-4 I/O-8', selector sun.nio.ch.WindowsSelectorImpl@1098ced1
+26 三月 2019 | 11:21:15,674 | DEBUG | HotSwapWatcher | io.undertow |     | Configuring listener with protocol HTTP for interface localhost and port 80
+26 三月 2019 | 11:21:15,674 | DEBUG | XNIO-4 I/O-3 | org.xnio.nio |     | Started channel thread 'XNIO-4 I/O-3', selector sun.nio.ch.WindowsSelectorImpl@385ba8c9
+26 三月 2019 | 11:21:15,674 | DEBUG | XNIO-4 I/O-5 | org.xnio.nio |     | Started channel thread 'XNIO-4 I/O-5', selector sun.nio.ch.WindowsSelectorImpl@72625a0
+26 三月 2019 | 11:21:15,674 | DEBUG | XNIO-4 I/O-1 | org.xnio.nio |     | Started channel thread 'XNIO-4 I/O-1', selector sun.nio.ch.WindowsSelectorImpl@de068c3
+26 三月 2019 | 11:29:50,235 | INFO  | HotSwapWatcher | druid.pool.DruidDataSource |     | {dataSource-4} closed
+26 三月 2019 | 11:29:50,247 | DEBUG | HotSwapWatcher | io.undertow |     | stopping undertow server io.undertow.Undertow@5bfc6873
+26 三月 2019 | 11:29:50,258 | DEBUG | HotSwapWatcher | io.undertow.session |     | Setting default session timeout to 1800
+26 三月 2019 | 11:29:50,258 | DEBUG | HotSwapWatcher | io.undertow.session |     | Registered session listener io.undertow.servlet.core.SessionListenerBridge@13d24f90
+26 三月 2019 | 11:29:50,329 | INFO  | HotSwapWatcher | druid.pool.DruidDataSource |     | {dataSource-5} inited
+26 三月 2019 | 11:29:50,396 | DEBUG | HotSwapWatcher | io.undertow |     | starting undertow server io.undertow.Undertow@6098eb28
+26 三月 2019 | 11:29:50,405 | DEBUG | XNIO-5 I/O-1 | org.xnio.nio |     | Started channel thread 'XNIO-5 I/O-1', selector sun.nio.ch.WindowsSelectorImpl@41454a68
+26 三月 2019 | 11:29:50,406 | DEBUG | XNIO-5 Accept | org.xnio.nio |     | Started channel thread 'XNIO-5 Accept', selector sun.nio.ch.WindowsSelectorImpl@32df7506
+26 三月 2019 | 11:29:50,406 | DEBUG | XNIO-5 I/O-8 | org.xnio.nio |     | Started channel thread 'XNIO-5 I/O-8', selector sun.nio.ch.WindowsSelectorImpl@6ae49703
+26 三月 2019 | 11:29:50,406 | DEBUG | XNIO-5 I/O-4 | org.xnio.nio |     | Started channel thread 'XNIO-5 I/O-4', selector sun.nio.ch.WindowsSelectorImpl@1ef45e3f
+26 三月 2019 | 11:29:50,405 | DEBUG | XNIO-5 I/O-6 | org.xnio.nio |     | Started channel thread 'XNIO-5 I/O-6', selector sun.nio.ch.WindowsSelectorImpl@1369cd48
+26 三月 2019 | 11:29:50,405 | DEBUG | HotSwapWatcher | io.undertow |     | Configuring listener with protocol HTTP for interface localhost and port 80
+26 三月 2019 | 11:29:50,405 | DEBUG | XNIO-5 I/O-3 | org.xnio.nio |     | Started channel thread 'XNIO-5 I/O-3', selector sun.nio.ch.WindowsSelectorImpl@6e3a38be
+26 三月 2019 | 11:29:50,405 | DEBUG | XNIO-5 I/O-7 | org.xnio.nio |     | Started channel thread 'XNIO-5 I/O-7', selector sun.nio.ch.WindowsSelectorImpl@1d016427
+26 三月 2019 | 11:29:50,405 | DEBUG | XNIO-5 I/O-5 | org.xnio.nio |     | Started channel thread 'XNIO-5 I/O-5', selector sun.nio.ch.WindowsSelectorImpl@75bc91b8
+26 三月 2019 | 11:29:50,405 | DEBUG | XNIO-5 I/O-2 | org.xnio.nio |     | Started channel thread 'XNIO-5 I/O-2', selector sun.nio.ch.WindowsSelectorImpl@6e99a46d
+26 三月 2019 | 11:30:20,167 | INFO  | HotSwapWatcher | druid.pool.DruidDataSource |     | {dataSource-5} closed
+26 三月 2019 | 11:30:20,169 | DEBUG | HotSwapWatcher | io.undertow |     | stopping undertow server io.undertow.Undertow@6098eb28
+26 三月 2019 | 11:30:20,182 | DEBUG | HotSwapWatcher | io.undertow.session |     | Setting default session timeout to 1800
+26 三月 2019 | 11:30:20,183 | DEBUG | HotSwapWatcher | io.undertow.session |     | Registered session listener io.undertow.servlet.core.SessionListenerBridge@14f16c48
+26 三月 2019 | 11:30:20,258 | INFO  | HotSwapWatcher | druid.pool.DruidDataSource |     | {dataSource-6} inited
+26 三月 2019 | 11:30:20,286 | DEBUG | HotSwapWatcher | io.undertow |     | starting undertow server io.undertow.Undertow@40a6b328
+26 三月 2019 | 11:30:20,291 | DEBUG | XNIO-6 I/O-1 | org.xnio.nio |     | Started channel thread 'XNIO-6 I/O-1', selector sun.nio.ch.WindowsSelectorImpl@50cd7212
+26 三月 2019 | 11:30:20,291 | DEBUG | XNIO-6 I/O-5 | org.xnio.nio |     | Started channel thread 'XNIO-6 I/O-5', selector sun.nio.ch.WindowsSelectorImpl@53a2e55d
+26 三月 2019 | 11:30:20,291 | DEBUG | XNIO-6 I/O-6 | org.xnio.nio |     | Started channel thread 'XNIO-6 I/O-6', selector sun.nio.ch.WindowsSelectorImpl@780b3088
+26 三月 2019 | 11:30:20,291 | DEBUG | XNIO-6 I/O-2 | org.xnio.nio |     | Started channel thread 'XNIO-6 I/O-2', selector sun.nio.ch.WindowsSelectorImpl@2a5caddb
+26 三月 2019 | 11:30:20,291 | DEBUG | XNIO-6 I/O-4 | org.xnio.nio |     | Started channel thread 'XNIO-6 I/O-4', selector sun.nio.ch.WindowsSelectorImpl@774fe9b8
+26 三月 2019 | 11:30:20,291 | DEBUG | XNIO-6 I/O-3 | org.xnio.nio |     | Started channel thread 'XNIO-6 I/O-3', selector sun.nio.ch.WindowsSelectorImpl@510a9396
+26 三月 2019 | 11:30:20,291 | DEBUG | XNIO-6 I/O-7 | org.xnio.nio |     | Started channel thread 'XNIO-6 I/O-7', selector sun.nio.ch.WindowsSelectorImpl@13cd3908
+26 三月 2019 | 11:30:20,291 | DEBUG | XNIO-6 Accept | org.xnio.nio |     | Started channel thread 'XNIO-6 Accept', selector sun.nio.ch.WindowsSelectorImpl@9ca4454
+26 三月 2019 | 11:30:20,291 | DEBUG | XNIO-6 I/O-8 | org.xnio.nio |     | Started channel thread 'XNIO-6 I/O-8', selector sun.nio.ch.WindowsSelectorImpl@39434906
+26 三月 2019 | 11:30:20,291 | DEBUG | HotSwapWatcher | io.undertow |     | Configuring listener with protocol HTTP for interface localhost and port 80
+26 三月 2019 | 11:30:29,760 | INFO  | HotSwapWatcher | druid.pool.DruidDataSource |     | {dataSource-6} closed
+26 三月 2019 | 11:30:29,761 | DEBUG | HotSwapWatcher | io.undertow |     | stopping undertow server io.undertow.Undertow@40a6b328
+26 三月 2019 | 11:30:29,775 | DEBUG | HotSwapWatcher | io.undertow.session |     | Setting default session timeout to 1800
+26 三月 2019 | 11:30:29,776 | DEBUG | HotSwapWatcher | io.undertow.session |     | Registered session listener io.undertow.servlet.core.SessionListenerBridge@5e5126f6
+26 三月 2019 | 11:30:29,870 | INFO  | HotSwapWatcher | druid.pool.DruidDataSource |     | {dataSource-7} inited
+26 三月 2019 | 11:30:29,909 | DEBUG | HotSwapWatcher | io.undertow |     | starting undertow server io.undertow.Undertow@728f4aa6
+26 三月 2019 | 11:30:29,916 | DEBUG | XNIO-7 I/O-4 | org.xnio.nio |     | Started channel thread 'XNIO-7 I/O-4', selector sun.nio.ch.WindowsSelectorImpl@8862598
+26 三月 2019 | 11:30:29,916 | DEBUG | XNIO-7 I/O-7 | org.xnio.nio |     | Started channel thread 'XNIO-7 I/O-7', selector sun.nio.ch.WindowsSelectorImpl@5cd8142d
+26 三月 2019 | 11:30:29,917 | DEBUG | XNIO-7 I/O-6 | org.xnio.nio |     | Started channel thread 'XNIO-7 I/O-6', selector sun.nio.ch.WindowsSelectorImpl@48a96289
+26 三月 2019 | 11:30:29,917 | DEBUG | XNIO-7 Accept | org.xnio.nio |     | Started channel thread 'XNIO-7 Accept', selector sun.nio.ch.WindowsSelectorImpl@399c2a1c
+26 三月 2019 | 11:30:29,917 | DEBUG | XNIO-7 I/O-8 | org.xnio.nio |     | Started channel thread 'XNIO-7 I/O-8', selector sun.nio.ch.WindowsSelectorImpl@4510ec96
+26 三月 2019 | 11:30:29,916 | DEBUG | XNIO-7 I/O-5 | org.xnio.nio |     | Started channel thread 'XNIO-7 I/O-5', selector sun.nio.ch.WindowsSelectorImpl@2374736c
+26 三月 2019 | 11:30:29,916 | DEBUG | XNIO-7 I/O-2 | org.xnio.nio |     | Started channel thread 'XNIO-7 I/O-2', selector sun.nio.ch.WindowsSelectorImpl@5093830c
+26 三月 2019 | 11:30:29,916 | DEBUG | HotSwapWatcher | io.undertow |     | Configuring listener with protocol HTTP for interface localhost and port 80
+26 三月 2019 | 11:30:29,916 | DEBUG | XNIO-7 I/O-1 | org.xnio.nio |     | Started channel thread 'XNIO-7 I/O-1', selector sun.nio.ch.WindowsSelectorImpl@2ae745bc
+26 三月 2019 | 11:30:29,916 | DEBUG | XNIO-7 I/O-3 | org.xnio.nio |     | Started channel thread 'XNIO-7 I/O-3', selector sun.nio.ch.WindowsSelectorImpl@8986fe9
+26 三月 2019 | 11:33:13,066 | INFO  | HotSwapWatcher | druid.pool.DruidDataSource |     | {dataSource-7} closed
+26 三月 2019 | 11:33:13,067 | DEBUG | HotSwapWatcher | io.undertow |     | stopping undertow server io.undertow.Undertow@728f4aa6
+26 三月 2019 | 11:33:13,075 | DEBUG | HotSwapWatcher | io.undertow.session |     | Setting default session timeout to 1800
+26 三月 2019 | 11:33:13,076 | DEBUG | HotSwapWatcher | io.undertow.session |     | Registered session listener io.undertow.servlet.core.SessionListenerBridge@6fc4c3e9
+26 三月 2019 | 11:33:13,154 | INFO  | HotSwapWatcher | druid.pool.DruidDataSource |     | {dataSource-8} inited
+26 三月 2019 | 11:33:13,183 | DEBUG | HotSwapWatcher | io.undertow |     | starting undertow server io.undertow.Undertow@4c84fdda
+26 三月 2019 | 11:33:13,189 | DEBUG | XNIO-8 I/O-3 | org.xnio.nio |     | Started channel thread 'XNIO-8 I/O-3', selector sun.nio.ch.WindowsSelectorImpl@abb10c3
+26 三月 2019 | 11:33:13,189 | DEBUG | XNIO-8 I/O-1 | org.xnio.nio |     | Started channel thread 'XNIO-8 I/O-1', selector sun.nio.ch.WindowsSelectorImpl@12f21cb0
+26 三月 2019 | 11:33:13,189 | DEBUG | XNIO-8 I/O-6 | org.xnio.nio |     | Started channel thread 'XNIO-8 I/O-6', selector sun.nio.ch.WindowsSelectorImpl@643e7d08
+26 三月 2019 | 11:33:13,189 | DEBUG | XNIO-8 I/O-4 | org.xnio.nio |     | Started channel thread 'XNIO-8 I/O-4', selector sun.nio.ch.WindowsSelectorImpl@51bd94b3
+26 三月 2019 | 11:33:13,189 | DEBUG | XNIO-8 I/O-5 | org.xnio.nio |     | Started channel thread 'XNIO-8 I/O-5', selector sun.nio.ch.WindowsSelectorImpl@221742cd
+26 三月 2019 | 11:33:13,189 | DEBUG | XNIO-8 I/O-2 | org.xnio.nio |     | Started channel thread 'XNIO-8 I/O-2', selector sun.nio.ch.WindowsSelectorImpl@19749048
+26 三月 2019 | 11:33:13,190 | DEBUG | XNIO-8 I/O-8 | org.xnio.nio |     | Started channel thread 'XNIO-8 I/O-8', selector sun.nio.ch.WindowsSelectorImpl@58133227
+26 三月 2019 | 11:33:13,190 | DEBUG | HotSwapWatcher | io.undertow |     | Configuring listener with protocol HTTP for interface localhost and port 80
+26 三月 2019 | 11:33:13,190 | DEBUG | XNIO-8 I/O-7 | org.xnio.nio |     | Started channel thread 'XNIO-8 I/O-7', selector sun.nio.ch.WindowsSelectorImpl@5f7442e5
+26 三月 2019 | 11:33:13,190 | DEBUG | XNIO-8 Accept | org.xnio.nio |     | Started channel thread 'XNIO-8 Accept', selector sun.nio.ch.WindowsSelectorImpl@1e908e0
+26 三月 2019 | 11:33:23,082 | DEBUG | XNIO-8 I/O-3 | io.undertow.request |     | Matched default handler path /index
+26 三月 2019 | 11:33:23,098 | DEBUG | XNIO-8 task-1 | undertow.request.security |     | Attempting to authenticate /index, authentication required: false
+26 三月 2019 | 11:33:23,100 | DEBUG | XNIO-8 task-1 | undertow.request.security |     | Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@330c96c6 for /index
+26 三月 2019 | 11:33:23,100 | DEBUG | XNIO-8 task-1 | undertow.request.security |     | Authentication result was ATTEMPTED for /index
+26 三月 2019 | 11:33:23,111 | DEBUG | XNIO-8 task-1 | io.undertow.session |     | Created session with id XxkwoFZIfWpn6Pxw4wFCC2gYOqC_0TK3w02x--2s for exchange HttpServerExchange{ GET /index request {Accept=[text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8], Accept-Language=[zh-CN,zh;q=0.9], Cache-Control=[max-age=0], Accept-Encoding=[gzip, deflate, br], User-Agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36], Connection=[keep-alive], Cookie=[JSESSIONID=rPMbDA3MqIm_3c-23kQhP_xRG_7eYwFHKxj6SXHm], Upgrade-Insecure-Requests=[1], Host=[127.0.0.1]} response {Server=[JFinal]}}
+26 三月 2019 | 11:33:27,273 | DEBUG | XNIO-8 I/O-3 | io.undertow.request |     | Matched default handler path /user_login/login
+26 三月 2019 | 11:33:27,276 | DEBUG | XNIO-8 task-2 | undertow.request.security |     | Attempting to authenticate /user_login/login, authentication required: false
+26 三月 2019 | 11:33:27,276 | DEBUG | XNIO-8 task-2 | undertow.request.security |     | Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@330c96c6 for /user_login/login
+26 三月 2019 | 11:33:27,277 | DEBUG | XNIO-8 task-2 | undertow.request.security |     | Authentication result was ATTEMPTED for /user_login/login
+26 三月 2019 | 11:33:27,319 | DEBUG | XNIO-8 I/O-3 | io.undertow.request |     | Matched default handler path /index
+26 三月 2019 | 11:33:27,320 | DEBUG | XNIO-8 task-3 | undertow.request.security |     | Attempting to authenticate /index, authentication required: false
+26 三月 2019 | 11:33:27,320 | DEBUG | XNIO-8 task-3 | undertow.request.security |     | Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@330c96c6 for /index
+26 三月 2019 | 11:33:27,321 | DEBUG | XNIO-8 task-3 | undertow.request.security |     | Authentication result was ATTEMPTED for /index
+26 三月 2019 | 11:33:27,335 | DEBUG | XNIO-8 I/O-3 | io.undertow.request |     | Matched default handler path /js/bootstrap-paginator.js
+26 三月 2019 | 11:33:27,337 | DEBUG | XNIO-8 task-4 | undertow.request.security |     | Attempting to authenticate /js/bootstrap-paginator.js, authentication required: false
+26 三月 2019 | 11:33:27,337 | DEBUG | XNIO-8 task-4 | undertow.request.security |     | Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@330c96c6 for /js/bootstrap-paginator.js
+26 三月 2019 | 11:33:27,337 | DEBUG | XNIO-8 task-4 | undertow.request.security |     | Authentication result was ATTEMPTED for /js/bootstrap-paginator.js
+26 三月 2019 | 11:33:27,337 | DEBUG | XNIO-8 I/O-2 | io.undertow.request |     | Matched default handler path /generate/QrCode
+26 三月 2019 | 11:33:27,339 | DEBUG | XNIO-8 task-5 | undertow.request.security |     | Attempting to authenticate /generate/QrCode, authentication required: false
+26 三月 2019 | 11:33:27,340 | DEBUG | XNIO-8 task-5 | undertow.request.security |     | Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@330c96c6 for /generate/QrCode
+26 三月 2019 | 11:33:27,340 | DEBUG | XNIO-8 task-5 | undertow.request.security |     | Authentication result was ATTEMPTED for /generate/QrCode
+26 三月 2019 | 11:33:27,445 | DEBUG | XNIO-8 I/O-3 | io.undertow.request |     | Matched default handler path /user/page/pageQuery
+26 三月 2019 | 11:33:27,446 | DEBUG | XNIO-8 task-6 | undertow.request.security |     | Attempting to authenticate /user/page/pageQuery, authentication required: false
+26 三月 2019 | 11:33:27,446 | DEBUG | XNIO-8 task-6 | undertow.request.security |     | Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@330c96c6 for /user/page/pageQuery
+26 三月 2019 | 11:33:27,447 | DEBUG | XNIO-8 task-6 | undertow.request.security |     | Authentication result was ATTEMPTED for /user/page/pageQuery
+26 三月 2019 | 11:33:28,862 | DEBUG | XNIO-8 I/O-3 | io.undertow.request |     | Matched default handler path /user/page/pageQuery
+26 三月 2019 | 11:33:28,862 | DEBUG | XNIO-8 task-7 | undertow.request.security |     | Attempting to authenticate /user/page/pageQuery, authentication required: false
+26 三月 2019 | 11:33:28,863 | DEBUG | XNIO-8 task-7 | undertow.request.security |     | Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@330c96c6 for /user/page/pageQuery
+26 三月 2019 | 11:33:28,863 | DEBUG | XNIO-8 task-7 | undertow.request.security |     | Authentication result was ATTEMPTED for /user/page/pageQuery
+26 三月 2019 | 11:34:27,497 | DEBUG | XNIO-8 I/O-2 | io.undertow.request |     | Timing out idle connection from /127.0.0.1:61609
+26 三月 2019 | 11:34:28,916 | DEBUG | XNIO-8 I/O-3 | io.undertow.request |     | Timing out idle connection from /127.0.0.1:61602
+26 三月 2019 | 11:38:07,875 | INFO  | HotSwapWatcher | druid.pool.DruidDataSource |     | {dataSource-8} closed
+26 三月 2019 | 11:38:07,889 | DEBUG | HotSwapWatcher | io.undertow |     | stopping undertow server io.undertow.Undertow@4c84fdda
+26 三月 2019 | 11:38:07,901 | DEBUG | HotSwapWatcher | io.undertow.session |     | Setting default session timeout to 1800
+26 三月 2019 | 11:38:07,901 | DEBUG | HotSwapWatcher | io.undertow.session |     | Registered session listener io.undertow.servlet.core.SessionListenerBridge@119ced9e
+26 三月 2019 | 11:38:07,950 | INFO  | HotSwapWatcher | druid.pool.DruidDataSource |     | {dataSource-9} inited
+26 三月 2019 | 11:38:07,983 | DEBUG | HotSwapWatcher | io.undertow |     | starting undertow server io.undertow.Undertow@25b39057
+26 三月 2019 | 11:38:07,987 | DEBUG | XNIO-9 I/O-3 | org.xnio.nio |     | Started channel thread 'XNIO-9 I/O-3', selector sun.nio.ch.WindowsSelectorImpl@12de9d20
+26 三月 2019 | 11:38:07,987 | DEBUG | HotSwapWatcher | io.undertow |     | Configuring listener with protocol HTTP for interface localhost and port 80
+26 三月 2019 | 11:38:07,987 | DEBUG | XNIO-9 I/O-4 | org.xnio.nio |     | Started channel thread 'XNIO-9 I/O-4', selector sun.nio.ch.WindowsSelectorImpl@52c53e5a
+26 三月 2019 | 11:38:07,987 | DEBUG | XNIO-9 I/O-1 | org.xnio.nio |     | Started channel thread 'XNIO-9 I/O-1', selector sun.nio.ch.WindowsSelectorImpl@76f53f85
+26 三月 2019 | 11:38:07,987 | DEBUG | XNIO-9 I/O-2 | org.xnio.nio |     | Started channel thread 'XNIO-9 I/O-2', selector sun.nio.ch.WindowsSelectorImpl@3ca54505
+26 三月 2019 | 11:38:07,988 | DEBUG | XNIO-9 I/O-5 | org.xnio.nio |     | Started channel thread 'XNIO-9 I/O-5', selector sun.nio.ch.WindowsSelectorImpl@1b1360c7
+26 三月 2019 | 11:38:07,988 | DEBUG | XNIO-9 I/O-6 | org.xnio.nio |     | Started channel thread 'XNIO-9 I/O-6', selector sun.nio.ch.WindowsSelectorImpl@4de6bd4
+26 三月 2019 | 11:38:07,988 | DEBUG | XNIO-9 I/O-8 | org.xnio.nio |     | Started channel thread 'XNIO-9 I/O-8', selector sun.nio.ch.WindowsSelectorImpl@65c5fd35
+26 三月 2019 | 11:38:07,988 | DEBUG | XNIO-9 Accept | org.xnio.nio |     | Started channel thread 'XNIO-9 Accept', selector sun.nio.ch.WindowsSelectorImpl@101a30a7
+26 三月 2019 | 11:38:07,988 | DEBUG | XNIO-9 I/O-7 | org.xnio.nio |     | Started channel thread 'XNIO-9 I/O-7', selector sun.nio.ch.WindowsSelectorImpl@686d8d6f
+26 三月 2019 | 11:38:15,398 | INFO  | HotSwapWatcher | druid.pool.DruidDataSource |     | {dataSource-9} closed
+26 三月 2019 | 11:38:15,399 | DEBUG | HotSwapWatcher | io.undertow |     | stopping undertow server io.undertow.Undertow@25b39057
+26 三月 2019 | 11:38:15,409 | DEBUG | HotSwapWatcher | io.undertow.session |     | Setting default session timeout to 1800
+26 三月 2019 | 11:38:15,410 | DEBUG | HotSwapWatcher | io.undertow.session |     | Registered session listener io.undertow.servlet.core.SessionListenerBridge@50d5a71e
+26 三月 2019 | 11:38:15,462 | INFO  | HotSwapWatcher | druid.pool.DruidDataSource |     | {dataSource-10} inited
+26 三月 2019 | 11:38:15,492 | DEBUG | HotSwapWatcher | io.undertow |     | starting undertow server io.undertow.Undertow@90b9f7
+26 三月 2019 | 11:38:15,499 | DEBUG | XNIO-10 I/O-2 | org.xnio.nio |     | Started channel thread 'XNIO-10 I/O-2', selector sun.nio.ch.WindowsSelectorImpl@620b713c
+26 三月 2019 | 11:38:15,499 | DEBUG | XNIO-10 I/O-4 | org.xnio.nio |     | Started channel thread 'XNIO-10 I/O-4', selector sun.nio.ch.WindowsSelectorImpl@dbb9f6b
+26 三月 2019 | 11:38:15,500 | DEBUG | XNIO-10 I/O-8 | org.xnio.nio |     | Started channel thread 'XNIO-10 I/O-8', selector sun.nio.ch.WindowsSelectorImpl@788f9c38
+26 三月 2019 | 11:38:15,500 | DEBUG | XNIO-10 I/O-7 | org.xnio.nio |     | Started channel thread 'XNIO-10 I/O-7', selector sun.nio.ch.WindowsSelectorImpl@6b58487d
+26 三月 2019 | 11:38:15,500 | DEBUG | XNIO-10 I/O-5 | org.xnio.nio |     | Started channel thread 'XNIO-10 I/O-5', selector sun.nio.ch.WindowsSelectorImpl@6895979c
+26 三月 2019 | 11:38:15,500 | DEBUG | XNIO-10 Accept | org.xnio.nio |     | Started channel thread 'XNIO-10 Accept', selector sun.nio.ch.WindowsSelectorImpl@37cd71e5
+26 三月 2019 | 11:38:15,499 | DEBUG | XNIO-10 I/O-6 | org.xnio.nio |     | Started channel thread 'XNIO-10 I/O-6', selector sun.nio.ch.WindowsSelectorImpl@3e579943
+26 三月 2019 | 11:38:15,499 | DEBUG | HotSwapWatcher | io.undertow |     | Configuring listener with protocol HTTP for interface localhost and port 80
+26 三月 2019 | 11:38:15,499 | DEBUG | XNIO-10 I/O-1 | org.xnio.nio |     | Started channel thread 'XNIO-10 I/O-1', selector sun.nio.ch.WindowsSelectorImpl@3a6563c5
+26 三月 2019 | 11:38:15,499 | DEBUG | XNIO-10 I/O-3 | org.xnio.nio |     | Started channel thread 'XNIO-10 I/O-3', selector sun.nio.ch.WindowsSelectorImpl@511abde
+26 三月 2019 | 11:38:35,118 | INFO  | HotSwapWatcher | druid.pool.DruidDataSource |     | {dataSource-10} closed
+26 三月 2019 | 11:38:35,120 | DEBUG | HotSwapWatcher | io.undertow |     | stopping undertow server io.undertow.Undertow@90b9f7
+26 三月 2019 | 11:38:35,134 | DEBUG | HotSwapWatcher | io.undertow.session |     | Setting default session timeout to 1800
+26 三月 2019 | 11:38:35,136 | DEBUG | HotSwapWatcher | io.undertow.session |     | Registered session listener io.undertow.servlet.core.SessionListenerBridge@3775a1aa
+26 三月 2019 | 11:38:35,194 | INFO  | HotSwapWatcher | druid.pool.DruidDataSource |     | {dataSource-11} inited
+26 三月 2019 | 11:38:35,224 | DEBUG | HotSwapWatcher | io.undertow |     | starting undertow server io.undertow.Undertow@2dd61222
+26 三月 2019 | 11:38:35,228 | DEBUG | XNIO-11 I/O-1 | org.xnio.nio |     | Started channel thread 'XNIO-11 I/O-1', selector sun.nio.ch.WindowsSelectorImpl@6a0025ec
+26 三月 2019 | 11:38:35,229 | DEBUG | XNIO-11 I/O-7 | org.xnio.nio |     | Started channel thread 'XNIO-11 I/O-7', selector sun.nio.ch.WindowsSelectorImpl@4eb5bd24
+26 三月 2019 | 11:38:35,229 | DEBUG | XNIO-11 I/O-8 | org.xnio.nio |     | Started channel thread 'XNIO-11 I/O-8', selector sun.nio.ch.WindowsSelectorImpl@16fa7c2d
+26 三月 2019 | 11:38:35,229 | DEBUG | XNIO-11 Accept | org.xnio.nio |     | Started channel thread 'XNIO-11 Accept', selector sun.nio.ch.WindowsSelectorImpl@7fdc5114
+26 三月 2019 | 11:38:35,229 | DEBUG | HotSwapWatcher | io.undertow |     | Configuring listener with protocol HTTP for interface localhost and port 80
+26 三月 2019 | 11:38:35,229 | DEBUG | XNIO-11 I/O-5 | org.xnio.nio |     | Started channel thread 'XNIO-11 I/O-5', selector sun.nio.ch.WindowsSelectorImpl@689a5941
+26 三月 2019 | 11:38:35,229 | DEBUG | XNIO-11 I/O-6 | org.xnio.nio |     | Started channel thread 'XNIO-11 I/O-6', selector sun.nio.ch.WindowsSelectorImpl@1ab63680
+26 三月 2019 | 11:38:35,228 | DEBUG | XNIO-11 I/O-3 | org.xnio.nio |     | Started channel thread 'XNIO-11 I/O-3', selector sun.nio.ch.WindowsSelectorImpl@462ec253
+26 三月 2019 | 11:38:35,228 | DEBUG | XNIO-11 I/O-4 | org.xnio.nio |     | Started channel thread 'XNIO-11 I/O-4', selector sun.nio.ch.WindowsSelectorImpl@401052b5
+26 三月 2019 | 11:38:35,228 | DEBUG | XNIO-11 I/O-2 | org.xnio.nio |     | Started channel thread 'XNIO-11 I/O-2', selector sun.nio.ch.WindowsSelectorImpl@22c9b48b
+26 三月 2019 | 11:38:40,694 | INFO  | HotSwapWatcher | druid.pool.DruidDataSource |     | {dataSource-11} closed
+26 三月 2019 | 11:38:40,695 | DEBUG | HotSwapWatcher | io.undertow |     | stopping undertow server io.undertow.Undertow@2dd61222
+26 三月 2019 | 11:38:40,702 | DEBUG | HotSwapWatcher | io.undertow.session |     | Setting default session timeout to 1800
+26 三月 2019 | 11:38:40,702 | DEBUG | HotSwapWatcher | io.undertow.session |     | Registered session listener io.undertow.servlet.core.SessionListenerBridge@7e8930ca
+26 三月 2019 | 11:38:40,741 | INFO  | HotSwapWatcher | druid.pool.DruidDataSource |     | {dataSource-12} inited
+26 三月 2019 | 11:38:40,770 | DEBUG | HotSwapWatcher | io.undertow |     | starting undertow server io.undertow.Undertow@154dff9e
+26 三月 2019 | 11:38:40,777 | DEBUG | XNIO-12 I/O-1 | org.xnio.nio |     | Started channel thread 'XNIO-12 I/O-1', selector sun.nio.ch.WindowsSelectorImpl@2d49a07
+26 三月 2019 | 11:38:40,777 | DEBUG | HotSwapWatcher | io.undertow |     | Configuring listener with protocol HTTP for interface localhost and port 80
+26 三月 2019 | 11:38:40,777 | DEBUG | XNIO-12 Accept | org.xnio.nio |     | Started channel thread 'XNIO-12 Accept', selector sun.nio.ch.WindowsSelectorImpl@487ecd82
+26 三月 2019 | 11:38:40,777 | DEBUG | XNIO-12 I/O-8 | org.xnio.nio |     | Started channel thread 'XNIO-12 I/O-8', selector sun.nio.ch.WindowsSelectorImpl@762709bd
+26 三月 2019 | 11:38:40,777 | DEBUG | XNIO-12 I/O-7 | org.xnio.nio |     | Started channel thread 'XNIO-12 I/O-7', selector sun.nio.ch.WindowsSelectorImpl@44e9c03b
+26 三月 2019 | 11:38:40,777 | DEBUG | XNIO-12 I/O-4 | org.xnio.nio |     | Started channel thread 'XNIO-12 I/O-4', selector sun.nio.ch.WindowsSelectorImpl@3fa7e7fa
+26 三月 2019 | 11:38:40,777 | DEBUG | XNIO-12 I/O-6 | org.xnio.nio |     | Started channel thread 'XNIO-12 I/O-6', selector sun.nio.ch.WindowsSelectorImpl@32d52e2
+26 三月 2019 | 11:38:40,777 | DEBUG | XNIO-12 I/O-5 | org.xnio.nio |     | Started channel thread 'XNIO-12 I/O-5', selector sun.nio.ch.WindowsSelectorImpl@54665395
+26 三月 2019 | 11:38:40,777 | DEBUG | XNIO-12 I/O-3 | org.xnio.nio |     | Started channel thread 'XNIO-12 I/O-3', selector sun.nio.ch.WindowsSelectorImpl@47c1651
+26 三月 2019 | 11:38:40,777 | DEBUG | XNIO-12 I/O-2 | org.xnio.nio |     | Started channel thread 'XNIO-12 I/O-2', selector sun.nio.ch.WindowsSelectorImpl@6e747a6e
+26 三月 2019 | 11:39:28,821 | DEBUG | XNIO-12 I/O-3 | io.undertow.request |     | Matched default handler path /index
+26 三月 2019 | 11:39:28,825 | DEBUG | XNIO-12 task-1 | undertow.request.security |     | Attempting to authenticate /index, authentication required: false
+26 三月 2019 | 11:39:28,826 | DEBUG | XNIO-12 task-1 | undertow.request.security |     | Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@5c296d66 for /index
+26 三月 2019 | 11:39:28,826 | DEBUG | XNIO-12 task-1 | undertow.request.security |     | Authentication result was ATTEMPTED for /index
+26 三月 2019 | 11:39:28,850 | DEBUG | XNIO-12 I/O-3 | io.undertow.request |     | Matched default handler path /generate/QrCode
+26 三月 2019 | 11:39:28,852 | DEBUG | XNIO-12 task-2 | undertow.request.security |     | Attempting to authenticate /generate/QrCode, authentication required: false
+26 三月 2019 | 11:39:28,854 | DEBUG | XNIO-12 task-2 | undertow.request.security |     | Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@5c296d66 for /generate/QrCode
+26 三月 2019 | 11:39:28,854 | DEBUG | XNIO-12 task-2 | undertow.request.security |     | Authentication result was ATTEMPTED for /generate/QrCode
+26 三月 2019 | 11:39:28,927 | DEBUG | XNIO-12 I/O-3 | io.undertow.request |     | Matched default handler path /user/page/pageQuery
+26 三月 2019 | 11:39:28,928 | DEBUG | XNIO-12 task-3 | undertow.request.security |     | Attempting to authenticate /user/page/pageQuery, authentication required: false
+26 三月 2019 | 11:39:28,928 | DEBUG | XNIO-12 task-3 | undertow.request.security |     | Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@5c296d66 for /user/page/pageQuery
+26 三月 2019 | 11:39:28,929 | DEBUG | XNIO-12 task-3 | undertow.request.security |     | Authentication result was ATTEMPTED for /user/page/pageQuery
+26 三月 2019 | 11:39:30,837 | DEBUG | XNIO-12 I/O-3 | io.undertow.request |     | Matched default handler path /user/page/pageQuery
+26 三月 2019 | 11:39:30,838 | DEBUG | XNIO-12 task-4 | undertow.request.security |     | Attempting to authenticate /user/page/pageQuery, authentication required: false
+26 三月 2019 | 11:39:30,838 | DEBUG | XNIO-12 task-4 | undertow.request.security |     | Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@5c296d66 for /user/page/pageQuery
+26 三月 2019 | 11:39:30,839 | DEBUG | XNIO-12 task-4 | undertow.request.security |     | Authentication result was ATTEMPTED for /user/page/pageQuery
+26 三月 2019 | 11:40:30,892 | DEBUG | XNIO-12 I/O-3 | io.undertow.request |     | Timing out idle connection from /127.0.0.1:62378
+26 三月 2019 | 11:42:21,536 | DEBUG | XNIO-12 I/O-2 | io.undertow.request |     | Matched default handler path /index
+26 三月 2019 | 11:42:21,536 | DEBUG | XNIO-12 task-5 | undertow.request.security |     | Attempting to authenticate /index, authentication required: false
+26 三月 2019 | 11:42:21,537 | DEBUG | XNIO-12 task-5 | undertow.request.security |     | Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@5c296d66 for /index
+26 三月 2019 | 11:42:21,537 | DEBUG | XNIO-12 task-5 | undertow.request.security |     | Authentication result was ATTEMPTED for /index
+26 三月 2019 | 11:42:21,552 | DEBUG | XNIO-12 I/O-2 | io.undertow.request |     | Matched default handler path /js/bootstrap-paginator.js
+26 三月 2019 | 11:42:21,553 | DEBUG | XNIO-12 task-6 | undertow.request.security |     | Attempting to authenticate /js/bootstrap-paginator.js, authentication required: false
+26 三月 2019 | 11:42:21,554 | DEBUG | XNIO-12 task-6 | undertow.request.security |     | Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@5c296d66 for /js/bootstrap-paginator.js
+26 三月 2019 | 11:42:21,554 | DEBUG | XNIO-12 task-6 | undertow.request.security |     | Authentication result was ATTEMPTED for /js/bootstrap-paginator.js
+26 三月 2019 | 11:42:21,556 | DEBUG | XNIO-12 I/O-3 | io.undertow.request |     | Matched default handler path /generate/QrCode
+26 三月 2019 | 11:42:21,556 | DEBUG | XNIO-12 task-7 | undertow.request.security |     | Attempting to authenticate /generate/QrCode, authentication required: false
+26 三月 2019 | 11:42:21,557 | DEBUG | XNIO-12 task-7 | undertow.request.security |     | Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@5c296d66 for /generate/QrCode
+26 三月 2019 | 11:42:21,557 | DEBUG | XNIO-12 task-7 | undertow.request.security |     | Authentication result was ATTEMPTED for /generate/QrCode
+26 三月 2019 | 11:42:21,636 | DEBUG | XNIO-12 I/O-3 | io.undertow.request |     | Matched default handler path /user/page/pageQuery
+26 三月 2019 | 11:42:21,637 | DEBUG | XNIO-12 task-8 | undertow.request.security |     | Attempting to authenticate /user/page/pageQuery, authentication required: false
+26 三月 2019 | 11:42:21,639 | DEBUG | XNIO-12 task-8 | undertow.request.security |     | Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@5c296d66 for /user/page/pageQuery
+26 三月 2019 | 11:42:21,640 | DEBUG | XNIO-12 task-8 | undertow.request.security |     | Authentication result was ATTEMPTED for /user/page/pageQuery
+26 三月 2019 | 11:42:23,189 | DEBUG | XNIO-12 I/O-3 | io.undertow.request |     | Matched default handler path /user/page/pageQuery
+26 三月 2019 | 11:42:23,189 | DEBUG | XNIO-12 task-9 | undertow.request.security |     | Attempting to authenticate /user/page/pageQuery, authentication required: false
+26 三月 2019 | 11:42:23,190 | DEBUG | XNIO-12 task-9 | undertow.request.security |     | Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@5c296d66 for /user/page/pageQuery
+26 三月 2019 | 11:42:23,190 | DEBUG | XNIO-12 task-9 | undertow.request.security |     | Authentication result was ATTEMPTED for /user/page/pageQuery
+26 三月 2019 | 11:42:30,124 | DEBUG | XNIO-12 I/O-3 | io.undertow.request |     | Matched default handler path /user/page/pageQuery
+26 三月 2019 | 11:42:30,125 | DEBUG | XNIO-12 task-10 | undertow.request.security |     | Attempting to authenticate /user/page/pageQuery, authentication required: false
+26 三月 2019 | 11:42:30,125 | DEBUG | XNIO-12 task-10 | undertow.request.security |     | Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@5c296d66 for /user/page/pageQuery
+26 三月 2019 | 11:42:30,126 | DEBUG | XNIO-12 task-10 | undertow.request.security |     | Authentication result was ATTEMPTED for /user/page/pageQuery
+26 三月 2019 | 11:42:31,108 | DEBUG | XNIO-12 I/O-3 | io.undertow.request |     | Matched default handler path /user/page/pageQuery
+26 三月 2019 | 11:42:31,109 | DEBUG | XNIO-12 task-11 | undertow.request.security |     | Attempting to authenticate /user/page/pageQuery, authentication required: false
+26 三月 2019 | 11:42:31,109 | DEBUG | XNIO-12 task-11 | undertow.request.security |     | Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@5c296d66 for /user/page/pageQuery
+26 三月 2019 | 11:42:31,110 | DEBUG | XNIO-12 task-11 | undertow.request.security |     | Authentication result was ATTEMPTED for /user/page/pageQuery
+26 三月 2019 | 11:42:31,509 | DEBUG | XNIO-12 I/O-3 | io.undertow.request |     | Matched default handler path /user/page/pageQuery
+26 三月 2019 | 11:42:31,509 | DEBUG | XNIO-12 task-12 | undertow.request.security |     | Attempting to authenticate /user/page/pageQuery, authentication required: false
+26 三月 2019 | 11:42:31,510 | DEBUG | XNIO-12 task-12 | undertow.request.security |     | Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@5c296d66 for /user/page/pageQuery
+26 三月 2019 | 11:42:31,510 | DEBUG | XNIO-12 task-12 | undertow.request.security |     | Authentication result was ATTEMPTED for /user/page/pageQuery
+26 三月 2019 | 11:42:31,709 | DEBUG | XNIO-12 I/O-3 | io.undertow.request |     | Matched default handler path /user/page/pageQuery
+26 三月 2019 | 11:42:31,710 | DEBUG | XNIO-12 task-13 | undertow.request.security |     | Attempting to authenticate /user/page/pageQuery, authentication required: false
+26 三月 2019 | 11:42:31,710 | DEBUG | XNIO-12 task-13 | undertow.request.security |     | Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@5c296d66 for /user/page/pageQuery
+26 三月 2019 | 11:42:31,710 | DEBUG | XNIO-12 task-13 | undertow.request.security |     | Authentication result was ATTEMPTED for /user/page/pageQuery
+26 三月 2019 | 11:42:37,117 | DEBUG | XNIO-12 I/O-3 | io.undertow.request |     | Matched default handler path /user/page/pageQuery
+26 三月 2019 | 11:42:37,118 | DEBUG | XNIO-12 task-14 | undertow.request.security |     | Attempting to authenticate /user/page/pageQuery, authentication required: false
+26 三月 2019 | 11:42:37,118 | DEBUG | XNIO-12 task-14 | undertow.request.security |     | Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@5c296d66 for /user/page/pageQuery
+26 三月 2019 | 11:42:37,118 | DEBUG | XNIO-12 task-14 | undertow.request.security |     | Authentication result was ATTEMPTED for /user/page/pageQuery
+26 三月 2019 | 11:42:39,348 | DEBUG | XNIO-12 I/O-3 | io.undertow.request |     | Matched default handler path /user/page/pageQuery
+26 三月 2019 | 11:42:39,349 | DEBUG | XNIO-12 task-15 | undertow.request.security |     | Attempting to authenticate /user/page/pageQuery, authentication required: false
+26 三月 2019 | 11:42:39,349 | DEBUG | XNIO-12 task-15 | undertow.request.security |     | Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@5c296d66 for /user/page/pageQuery
+26 三月 2019 | 11:42:39,350 | DEBUG | XNIO-12 task-15 | undertow.request.security |     | Authentication result was ATTEMPTED for /user/page/pageQuery
+26 三月 2019 | 11:42:45,245 | DEBUG | XNIO-12 I/O-3 | io.undertow.request |     | Matched default handler path /user/page/pageQuery
+26 三月 2019 | 11:42:45,246 | DEBUG | XNIO-12 task-16 | undertow.request.security |     | Attempting to authenticate /user/page/pageQuery, authentication required: false
+26 三月 2019 | 11:42:45,246 | DEBUG | XNIO-12 task-16 | undertow.request.security |     | Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@5c296d66 for /user/page/pageQuery
+26 三月 2019 | 11:42:45,247 | DEBUG | XNIO-12 task-16 | undertow.request.security |     | Authentication result was ATTEMPTED for /user/page/pageQuery
+26 三月 2019 | 11:42:49,172 | DEBUG | XNIO-12 I/O-3 | io.undertow.request |     | Matched default handler path /user/page/pageQuery
+26 三月 2019 | 11:42:49,173 | DEBUG | XNIO-12 task-17 | undertow.request.security |     | Attempting to authenticate /user/page/pageQuery, authentication required: false
+26 三月 2019 | 11:42:49,173 | DEBUG | XNIO-12 task-17 | undertow.request.security |     | Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@5c296d66 for /user/page/pageQuery
+26 三月 2019 | 11:42:49,173 | DEBUG | XNIO-12 task-17 | undertow.request.security |     | Authentication result was ATTEMPTED for /user/page/pageQuery
+26 三月 2019 | 11:43:21,586 | DEBUG | XNIO-12 I/O-2 | io.undertow.request |     | Timing out idle connection from /127.0.0.1:62713
+26 三月 2019 | 11:43:49,228 | DEBUG | XNIO-12 I/O-3 | io.undertow.request |     | Timing out idle connection from /127.0.0.1:62714
+26 三月 2019 | 11:44:46,888 | DEBUG | main | org.jboss.logging |     | Logging Provider: org.jboss.logging.Log4jLoggerProvider
+26 三月 2019 | 11:44:46,939 | DEBUG | main | io.undertow.session |     | Setting default session timeout to 1800
+26 三月 2019 | 11:44:46,946 | DEBUG | main | io.undertow.session |     | Registered session listener io.undertow.servlet.core.SessionListenerBridge@6b0c2d26
+26 三月 2019 | 11:44:47,283 | INFO  | main | druid.pool.DruidDataSource |     | {dataSource-1} inited
+26 三月 2019 | 11:44:47,324 | DEBUG | main | io.undertow |     | starting undertow server io.undertow.Undertow@700fb871
+26 三月 2019 | 11:44:47,331 | INFO  | main | org.xnio |     | XNIO version 3.3.8.Final
+26 三月 2019 | 11:44:47,348 | INFO  | main | org.xnio.nio |     | XNIO NIO Implementation Version 3.3.8.Final
+26 三月 2019 | 11:44:47,461 | DEBUG | XNIO-1 I/O-2 | org.xnio.nio |     | Started channel thread 'XNIO-1 I/O-2', selector sun.nio.ch.WindowsSelectorImpl@a3079e5
+26 三月 2019 | 11:44:47,461 | DEBUG | XNIO-1 Accept | org.xnio.nio |     | Started channel thread 'XNIO-1 Accept', selector sun.nio.ch.WindowsSelectorImpl@6d6a8521
+26 三月 2019 | 11:44:47,461 | DEBUG | XNIO-1 I/O-4 | org.xnio.nio |     | Started channel thread 'XNIO-1 I/O-4', selector sun.nio.ch.WindowsSelectorImpl@726cc5d0
+26 三月 2019 | 11:44:47,461 | DEBUG | XNIO-1 I/O-1 | org.xnio.nio |     | Started channel thread 'XNIO-1 I/O-1', selector sun.nio.ch.WindowsSelectorImpl@2aa1aa1b
+26 三月 2019 | 11:44:47,461 | DEBUG | XNIO-1 I/O-6 | org.xnio.nio |     | Started channel thread 'XNIO-1 I/O-6', selector sun.nio.ch.WindowsSelectorImpl@5b8904a7
+26 三月 2019 | 11:44:47,461 | DEBUG | XNIO-1 I/O-5 | org.xnio.nio |     | Started channel thread 'XNIO-1 I/O-5', selector sun.nio.ch.WindowsSelectorImpl@6c351aa2
+26 三月 2019 | 11:44:47,461 | DEBUG | XNIO-1 I/O-3 | org.xnio.nio |     | Started channel thread 'XNIO-1 I/O-3', selector sun.nio.ch.WindowsSelectorImpl@5bb72304
+26 三月 2019 | 11:44:47,462 | DEBUG | XNIO-1 I/O-8 | org.xnio.nio |     | Started channel thread 'XNIO-1 I/O-8', selector sun.nio.ch.WindowsSelectorImpl@3ce42bbf
+26 三月 2019 | 11:44:47,461 | DEBUG | XNIO-1 I/O-7 | org.xnio.nio |     | Started channel thread 'XNIO-1 I/O-7', selector sun.nio.ch.WindowsSelectorImpl@23a55633
+26 三月 2019 | 11:44:47,464 | DEBUG | main | io.undertow |     | Configuring listener with protocol HTTP for interface localhost and port 80
+26 三月 2019 | 11:44:51,610 | DEBUG | XNIO-1 I/O-7 | io.undertow.request |     | Matched default handler path /index
+26 三月 2019 | 11:44:51,625 | DEBUG | XNIO-1 task-1 | undertow.request.security |     | Attempting to authenticate /index, authentication required: false
+26 三月 2019 | 11:44:51,626 | DEBUG | XNIO-1 task-1 | undertow.request.security |     | Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@1b138cbf for /index
+26 三月 2019 | 11:44:51,627 | DEBUG | XNIO-1 task-1 | undertow.request.security |     | Authentication result was ATTEMPTED for /index
+26 三月 2019 | 11:44:51,634 | DEBUG | XNIO-1 task-1 | io.undertow.session |     | Created session with id Oh8Nok2RF3vThTndMxMC89f6qpbrRyeXBx3lnB2p for exchange HttpServerExchange{ GET /index request {Accept=[text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8], Accept-Language=[zh-CN,zh;q=0.9], Cache-Control=[max-age=0], Accept-Encoding=[gzip, deflate, br], User-Agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36], Connection=[keep-alive], Cookie=[JSESSIONID=XxkwoFZIfWpn6Pxw4wFCC2gYOqC_0TK3w02x--2s], Referer=[http://127.0.0.1/index], Upgrade-Insecure-Requests=[1], Host=[127.0.0.1]} response {Server=[JFinal]}}
+26 三月 2019 | 11:44:55,529 | DEBUG | XNIO-1 I/O-7 | io.undertow.request |     | Matched default handler path /user_login/login
+26 三月 2019 | 11:44:55,532 | DEBUG | XNIO-1 task-2 | undertow.request.security |     | Attempting to authenticate /user_login/login, authentication required: false
+26 三月 2019 | 11:44:55,533 | DEBUG | XNIO-1 task-2 | undertow.request.security |     | Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@1b138cbf for /user_login/login
+26 三月 2019 | 11:44:55,533 | DEBUG | XNIO-1 task-2 | undertow.request.security |     | Authentication result was ATTEMPTED for /user_login/login
+26 三月 2019 | 11:44:55,568 | DEBUG | XNIO-1 I/O-7 | io.undertow.request |     | Matched default handler path /index
+26 三月 2019 | 11:44:55,569 | DEBUG | XNIO-1 task-3 | undertow.request.security |     | Attempting to authenticate /index, authentication required: false
+26 三月 2019 | 11:44:55,570 | DEBUG | XNIO-1 task-3 | undertow.request.security |     | Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@1b138cbf for /index
+26 三月 2019 | 11:44:55,572 | DEBUG | XNIO-1 task-3 | undertow.request.security |     | Authentication result was ATTEMPTED for /index
+26 三月 2019 | 11:44:55,591 | DEBUG | XNIO-1 I/O-7 | io.undertow.request |     | Matched default handler path /generate/QrCode
+26 三月 2019 | 11:44:55,592 | DEBUG | XNIO-1 task-4 | undertow.request.security |     | Attempting to authenticate /generate/QrCode, authentication required: false
+26 三月 2019 | 11:44:55,592 | DEBUG | XNIO-1 task-4 | undertow.request.security |     | Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@1b138cbf for /generate/QrCode
+26 三月 2019 | 11:44:55,592 | DEBUG | XNIO-1 task-4 | undertow.request.security |     | Authentication result was ATTEMPTED for /generate/QrCode
+26 三月 2019 | 11:44:55,696 | DEBUG | XNIO-1 I/O-7 | io.undertow.request |     | Matched default handler path /user/page/pageQuery
+26 三月 2019 | 11:44:55,698 | DEBUG | XNIO-1 task-5 | undertow.request.security |     | Attempting to authenticate /user/page/pageQuery, authentication required: false
+26 三月 2019 | 11:44:55,699 | DEBUG | XNIO-1 task-5 | undertow.request.security |     | Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@1b138cbf for /user/page/pageQuery
+26 三月 2019 | 11:44:55,699 | DEBUG | XNIO-1 task-5 | undertow.request.security |     | Authentication result was ATTEMPTED for /user/page/pageQuery
+26 三月 2019 | 11:45:55,865 | DEBUG | XNIO-1 I/O-7 | io.undertow.request |     | Timing out idle connection from /127.0.0.1:63006
+26 三月 2019 | 11:48:12,552 | DEBUG | XNIO-1 I/O-4 | io.undertow.request |     | Matched default handler path /index
+26 三月 2019 | 11:48:12,552 | DEBUG | XNIO-1 task-6 | undertow.request.security |     | Attempting to authenticate /index, authentication required: false
+26 三月 2019 | 11:48:12,553 | DEBUG | XNIO-1 task-6 | undertow.request.security |     | Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@1b138cbf for /index
+26 三月 2019 | 11:48:12,553 | DEBUG | XNIO-1 task-6 | undertow.request.security |     | Authentication result was ATTEMPTED for /index
+26 三月 2019 | 11:48:12,569 | DEBUG | XNIO-1 I/O-4 | io.undertow.request |     | Matched default handler path /generate/QrCode
+26 三月 2019 | 11:48:12,570 | DEBUG | XNIO-1 task-7 | undertow.request.security |     | Attempting to authenticate /generate/QrCode, authentication required: false
+26 三月 2019 | 11:48:12,570 | DEBUG | XNIO-1 task-7 | undertow.request.security |     | Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@1b138cbf for /generate/QrCode
+26 三月 2019 | 11:48:12,570 | DEBUG | XNIO-1 task-7 | undertow.request.security |     | Authentication result was ATTEMPTED for /generate/QrCode
+26 三月 2019 | 11:48:12,644 | DEBUG | XNIO-1 I/O-4 | io.undertow.request |     | Matched default handler path /user/page/pageQuery
+26 三月 2019 | 11:48:12,645 | DEBUG | XNIO-1 task-8 | undertow.request.security |     | Attempting to authenticate /user/page/pageQuery, authentication required: false
+26 三月 2019 | 11:48:12,646 | DEBUG | XNIO-1 task-8 | undertow.request.security |     | Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@1b138cbf for /user/page/pageQuery
+26 三月 2019 | 11:48:12,646 | DEBUG | XNIO-1 task-8 | undertow.request.security |     | Authentication result was ATTEMPTED for /user/page/pageQuery
+26 三月 2019 | 11:48:46,561 | DEBUG | XNIO-1 I/O-4 | io.undertow.request |     | Matched default handler path /index
+26 三月 2019 | 11:48:46,562 | DEBUG | XNIO-1 task-9 | undertow.request.security |     | Attempting to authenticate /index, authentication required: false
+26 三月 2019 | 11:48:46,563 | DEBUG | XNIO-1 task-9 | undertow.request.security |     | Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@1b138cbf for /index
+26 三月 2019 | 11:48:46,563 | DEBUG | XNIO-1 task-9 | undertow.request.security |     | Authentication result was ATTEMPTED for /index
+26 三月 2019 | 11:48:46,588 | DEBUG | XNIO-1 I/O-4 | io.undertow.request |     | Matched default handler path /generate/QrCode
+26 三月 2019 | 11:48:46,589 | DEBUG | XNIO-1 task-10 | undertow.request.security |     | Attempting to authenticate /generate/QrCode, authentication required: false
+26 三月 2019 | 11:48:46,589 | DEBUG | XNIO-1 task-10 | undertow.request.security |     | Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@1b138cbf for /generate/QrCode
+26 三月 2019 | 11:48:46,590 | DEBUG | XNIO-1 task-10 | undertow.request.security |     | Authentication result was ATTEMPTED for /generate/QrCode
+26 三月 2019 | 11:48:46,662 | DEBUG | XNIO-1 I/O-4 | io.undertow.request |     | Matched default handler path /user/page/pageQuery
+26 三月 2019 | 11:48:46,664 | DEBUG | XNIO-1 task-11 | undertow.request.security |     | Attempting to authenticate /user/page/pageQuery, authentication required: false
+26 三月 2019 | 11:48:46,666 | DEBUG | XNIO-1 task-11 | undertow.request.security |     | Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@1b138cbf for /user/page/pageQuery
+26 三月 2019 | 11:48:46,666 | DEBUG | XNIO-1 task-11 | undertow.request.security |     | Authentication result was ATTEMPTED for /user/page/pageQuery
+26 三月 2019 | 11:48:57,588 | DEBUG | XNIO-1 I/O-4 | io.undertow.request |     | Matched default handler path /user/page/pageQuery
+26 三月 2019 | 11:48:57,589 | DEBUG | XNIO-1 task-12 | undertow.request.security |     | Attempting to authenticate /user/page/pageQuery, authentication required: false
+26 三月 2019 | 11:48:57,590 | DEBUG | XNIO-1 task-12 | undertow.request.security |     | Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@1b138cbf for /user/page/pageQuery
+26 三月 2019 | 11:48:57,590 | DEBUG | XNIO-1 task-12 | undertow.request.security |     | Authentication result was ATTEMPTED for /user/page/pageQuery
+26 三月 2019 | 11:49:53,430 | DEBUG | XNIO-1 I/O-4 | io.undertow.request |     | Matched default handler path /index
+26 三月 2019 | 11:49:53,431 | DEBUG | XNIO-1 task-13 | undertow.request.security |     | Attempting to authenticate /index, authentication required: false
+26 三月 2019 | 11:49:53,432 | DEBUG | XNIO-1 task-13 | undertow.request.security |     | Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@1b138cbf for /index
+26 三月 2019 | 11:49:53,432 | DEBUG | XNIO-1 task-13 | undertow.request.security |     | Authentication result was ATTEMPTED for /index
+26 三月 2019 | 11:49:53,450 | DEBUG | XNIO-1 I/O-4 | io.undertow.request |     | Matched default handler path /js/bootstrap-paginator.js
+26 三月 2019 | 11:49:53,452 | DEBUG | XNIO-1 task-14 | undertow.request.security |     | Attempting to authenticate /js/bootstrap-paginator.js, authentication required: false
+26 三月 2019 | 11:49:53,452 | DEBUG | XNIO-1 task-14 | undertow.request.security |     | Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@1b138cbf for /js/bootstrap-paginator.js
+26 三月 2019 | 11:49:53,453 | DEBUG | XNIO-1 I/O-3 | io.undertow.request |     | Matched default handler path /generate/QrCode
+26 三月 2019 | 11:49:53,453 | DEBUG | XNIO-1 task-14 | undertow.request.security |     | Authentication result was ATTEMPTED for /js/bootstrap-paginator.js
+26 三月 2019 | 11:49:53,454 | DEBUG | XNIO-1 task-15 | undertow.request.security |     | Attempting to authenticate /generate/QrCode, authentication required: false
+26 三月 2019 | 11:49:53,454 | DEBUG | XNIO-1 task-15 | undertow.request.security |     | Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@1b138cbf for /generate/QrCode
+26 三月 2019 | 11:49:53,454 | DEBUG | XNIO-1 task-15 | undertow.request.security |     | Authentication result was ATTEMPTED for /generate/QrCode
+26 三月 2019 | 11:49:53,537 | DEBUG | XNIO-1 I/O-3 | io.undertow.request |     | Matched default handler path /user/page/pageQuery
+26 三月 2019 | 11:49:53,538 | DEBUG | XNIO-1 task-16 | undertow.request.security |     | Attempting to authenticate /user/page/pageQuery, authentication required: false
+26 三月 2019 | 11:49:53,538 | DEBUG | XNIO-1 task-16 | undertow.request.security |     | Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@1b138cbf for /user/page/pageQuery
+26 三月 2019 | 11:49:53,538 | DEBUG | XNIO-1 task-16 | undertow.request.security |     | Authentication result was ATTEMPTED for /user/page/pageQuery
+26 三月 2019 | 11:49:58,780 | DEBUG | XNIO-1 I/O-3 | io.undertow.request |     | Matched default handler path /user/page/pageQuery
+26 三月 2019 | 11:49:58,781 | DEBUG | XNIO-1 task-17 | undertow.request.security |     | Attempting to authenticate /user/page/pageQuery, authentication required: false
+26 三月 2019 | 11:49:58,782 | DEBUG | XNIO-1 task-17 | undertow.request.security |     | Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@1b138cbf for /user/page/pageQuery
+26 三月 2019 | 11:49:58,782 | DEBUG | XNIO-1 task-17 | undertow.request.security |     | Authentication result was ATTEMPTED for /user/page/pageQuery
+26 三月 2019 | 11:50:00,004 | DEBUG | XNIO-1 I/O-3 | io.undertow.request |     | Matched default handler path /user/page/pageQuery
+26 三月 2019 | 11:50:00,005 | DEBUG | XNIO-1 task-18 | undertow.request.security |     | Attempting to authenticate /user/page/pageQuery, authentication required: false
+26 三月 2019 | 11:50:00,006 | DEBUG | XNIO-1 task-18 | undertow.request.security |     | Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@1b138cbf for /user/page/pageQuery
+26 三月 2019 | 11:50:00,006 | DEBUG | XNIO-1 task-18 | undertow.request.security |     | Authentication result was ATTEMPTED for /user/page/pageQuery
+26 三月 2019 | 11:50:11,532 | DEBUG | XNIO-1 I/O-3 | io.undertow.request |     | Matched default handler path /user/page/pageQuery
+26 三月 2019 | 11:50:11,533 | DEBUG | XNIO-1 task-19 | undertow.request.security |     | Attempting to authenticate /user/page/pageQuery, authentication required: false
+26 三月 2019 | 11:50:11,533 | DEBUG | XNIO-1 task-19 | undertow.request.security |     | Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@1b138cbf for /user/page/pageQuery
+26 三月 2019 | 11:50:11,534 | DEBUG | XNIO-1 task-19 | undertow.request.security |     | Authentication result was ATTEMPTED for /user/page/pageQuery
+26 三月 2019 | 11:50:18,724 | DEBUG | XNIO-1 I/O-3 | io.undertow.request |     | Matched default handler path /user/page/pageQuery
+26 三月 2019 | 11:50:18,725 | DEBUG | XNIO-1 task-20 | undertow.request.security |     | Attempting to authenticate /user/page/pageQuery, authentication required: false
+26 三月 2019 | 11:50:18,726 | DEBUG | XNIO-1 task-20 | undertow.request.security |     | Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@1b138cbf for /user/page/pageQuery
+26 三月 2019 | 11:50:18,726 | DEBUG | XNIO-1 task-20 | undertow.request.security |     | Authentication result was ATTEMPTED for /user/page/pageQuery
+26 三月 2019 | 11:50:21,891 | DEBUG | XNIO-1 I/O-3 | io.undertow.request |     | Matched default handler path /user/page/pageQuery
+26 三月 2019 | 11:50:21,892 | DEBUG | XNIO-1 task-21 | undertow.request.security |     | Attempting to authenticate /user/page/pageQuery, authentication required: false
+26 三月 2019 | 11:50:21,892 | DEBUG | XNIO-1 task-21 | undertow.request.security |     | Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@1b138cbf for /user/page/pageQuery
+26 三月 2019 | 11:50:21,893 | DEBUG | XNIO-1 task-21 | undertow.request.security |     | Authentication result was ATTEMPTED for /user/page/pageQuery
+26 三月 2019 | 11:50:25,084 | DEBUG | XNIO-1 I/O-3 | io.undertow.request |     | Matched default handler path /user/page/pageQuery
+26 三月 2019 | 11:50:25,085 | DEBUG | XNIO-1 task-22 | undertow.request.security |     | Attempting to authenticate /user/page/pageQuery, authentication required: false
+26 三月 2019 | 11:50:25,085 | DEBUG | XNIO-1 task-22 | undertow.request.security |     | Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@1b138cbf for /user/page/pageQuery
+26 三月 2019 | 11:50:25,085 | DEBUG | XNIO-1 task-22 | undertow.request.security |     | Authentication result was ATTEMPTED for /user/page/pageQuery
+26 三月 2019 | 11:50:32,611 | DEBUG | XNIO-1 I/O-3 | io.undertow.request |     | Matched default handler path /user/page/pageQuery
+26 三月 2019 | 11:50:32,612 | DEBUG | XNIO-1 task-23 | undertow.request.security |     | Attempting to authenticate /user/page/pageQuery, authentication required: false
+26 三月 2019 | 11:50:32,612 | DEBUG | XNIO-1 task-23 | undertow.request.security |     | Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@1b138cbf for /user/page/pageQuery
+26 三月 2019 | 11:50:32,612 | DEBUG | XNIO-1 task-23 | undertow.request.security |     | Authentication result was ATTEMPTED for /user/page/pageQuery

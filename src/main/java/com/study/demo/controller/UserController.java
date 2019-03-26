@@ -59,6 +59,6 @@ public class UserController extends Controller
         PageContent pageContent = new PageContent();
         pageContent.setPageCount(page_count);
         pageContent.setPageContent(page_content);
-        renderJson(pageContent);
+        renderJson(FastJson.getJson().toJson(pageContent));
     }
 }

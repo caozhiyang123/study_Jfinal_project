@@ -7,7 +7,9 @@ import com.jfinal.config.JFinalConfig;
 import com.jfinal.config.Plugins;
 import com.jfinal.config.Routes;
 import com.jfinal.ext.handler.ContextPathHandler;
+import com.jfinal.json.FastJsonFactory;
 import com.jfinal.kit.PropKit;
+import com.jfinal.kit.StrKit;
 import com.jfinal.plugin.activerecord.ActiveRecordPlugin;
 import com.jfinal.plugin.druid.DruidPlugin;
 import com.jfinal.render.ViewType;
@@ -32,12 +34,14 @@ public class MyJFinalConfig extends JFinalConfig {
         me.setError404View("/view/404.html");
         //use inject
         me.setInjectDependency(true);
+        
+        me.setJsonFactory(new FastJsonFactory());
+        me.setJsonDatePattern("yyyy-MM-dd HH:mm:ss");
     }
     
     public void configEngine(Engine me) {
-        me.addSharedFunction("/view/common/layout.html");
-        me.addSharedFunction("/view/common/paginate.html");
-        me.addSharedFunction("/view/admin/common/layout.html");
+        me.setDevMode(true);
+        me.addSharedFunction("/view/common/_layout.html");
     }
     
     public void configPlugin(Plugins me) {
@@ -49,6 +53,12 @@ public class MyJFinalConfig extends JFinalConfig {
      //  ActiveRecord database access plugin
         ActiveRecordPlugin arp_core = new ActiveRecordPlugin("core", core);
         arp_core.setShowSql(true);
+        
+        Engine engine = arp_core.getEngine();
+        // 上面的代码获取到了用于 sql 管理功能的 Engine 对象，接着就可以开始配置了
+        engine.setToClassPathSourceFactory();
+        engine.addSharedMethod(new StrKit());
+        
         me.add(arp_core);
         
      // ActiveRecordPlugin mapping 2 db(VO)

@@ -93,7 +93,7 @@
 		            }
 		        },
 	            onPageClicked: function (event, originalEvent, type, page){
-	            	currentPage = page;
+	            	if(pageCurrent == page){return;}
 	            	pageQuery(page,pageSize);
 	            }
 		    });

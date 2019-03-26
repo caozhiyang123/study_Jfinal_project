@@ -1,0 +1,313 @@
+26 三月 2019 | 10:16:51,534 | DEBUG | XNIO-1 I/O-6 | io.undertow.request |     | Matched default handler path /index
+26 三月 2019 | 10:16:51,556 | DEBUG | XNIO-1 task-13 | undertow.request.security |     | Attempting to authenticate /index, authentication required: false
+26 三月 2019 | 10:16:51,558 | DEBUG | XNIO-1 task-13 | undertow.request.security |     | Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@407530a7 for /index
+26 三月 2019 | 10:16:51,559 | DEBUG | XNIO-1 task-13 | undertow.request.security |     | Authentication result was ATTEMPTED for /index
+26 三月 2019 | 10:16:51,665 | DEBUG | XNIO-1 I/O-6 | io.undertow.request |     | Matched default handler path /generate/QrCode
+26 三月 2019 | 10:16:51,667 | DEBUG | XNIO-1 task-14 | undertow.request.security |     | Attempting to authenticate /generate/QrCode, authentication required: false
+26 三月 2019 | 10:16:51,667 | DEBUG | XNIO-1 task-14 | undertow.request.security |     | Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@407530a7 for /generate/QrCode
+26 三月 2019 | 10:16:51,667 | DEBUG | XNIO-1 task-14 | undertow.request.security |     | Authentication result was ATTEMPTED for /generate/QrCode
+26 三月 2019 | 10:17:11,642 | DEBUG | XNIO-1 I/O-6 | io.undertow.request |     | Matched default handler path /index
+26 三月 2019 | 10:17:11,643 | DEBUG | XNIO-1 task-15 | undertow.request.security |     | Attempting to authenticate /index, authentication required: false
+26 三月 2019 | 10:17:11,643 | DEBUG | XNIO-1 task-15 | undertow.request.security |     | Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@407530a7 for /index
+26 三月 2019 | 10:17:11,644 | DEBUG | XNIO-1 task-15 | undertow.request.security |     | Authentication result was ATTEMPTED for /index
+26 三月 2019 | 10:17:11,673 | DEBUG | XNIO-1 I/O-6 | io.undertow.request |     | Matched default handler path /generate/QrCode
+26 三月 2019 | 10:17:11,675 | DEBUG | XNIO-1 task-16 | undertow.request.security |     | Attempting to authenticate /generate/QrCode, authentication required: false
+26 三月 2019 | 10:17:11,676 | DEBUG | XNIO-1 task-16 | undertow.request.security |     | Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@407530a7 for /generate/QrCode
+26 三月 2019 | 10:17:11,676 | DEBUG | XNIO-1 task-16 | undertow.request.security |     | Authentication result was ATTEMPTED for /generate/QrCode
+26 三月 2019 | 10:18:24,066 | DEBUG | XNIO-1 I/O-1 | io.undertow.request |     | Matched default handler path /index
+26 三月 2019 | 10:18:24,069 | DEBUG | XNIO-1 task-18 | undertow.request.security |     | Attempting to authenticate /index, authentication required: false
+26 三月 2019 | 10:18:24,069 | DEBUG | XNIO-1 task-18 | undertow.request.security |     | Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@407530a7 for /index
+26 三月 2019 | 10:18:24,069 | DEBUG | XNIO-1 task-18 | undertow.request.security |     | Authentication result was ATTEMPTED for /index
+26 三月 2019 | 10:18:24,088 | DEBUG | XNIO-1 I/O-1 | io.undertow.request |     | Matched default handler path /generate/QrCode
+26 三月 2019 | 10:18:24,089 | DEBUG | XNIO-1 task-19 | undertow.request.security |     | Attempting to authenticate /generate/QrCode, authentication required: false
+26 三月 2019 | 10:18:24,091 | DEBUG | XNIO-1 task-19 | undertow.request.security |     | Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@407530a7 for /generate/QrCode
+26 三月 2019 | 10:18:24,093 | DEBUG | XNIO-1 task-19 | undertow.request.security |     | Authentication result was ATTEMPTED for /generate/QrCode
+26 三月 2019 | 10:18:35,759 | DEBUG | XNIO-1 I/O-1 | io.undertow.request |     | Matched default handler path /index
+26 三月 2019 | 10:18:35,760 | DEBUG | XNIO-1 task-20 | undertow.request.security |     | Attempting to authenticate /index, authentication required: false
+26 三月 2019 | 10:18:35,761 | DEBUG | XNIO-1 task-20 | undertow.request.security |     | Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@407530a7 for /index
+26 三月 2019 | 10:18:35,761 | DEBUG | XNIO-1 task-20 | undertow.request.security |     | Authentication result was ATTEMPTED for /index
+26 三月 2019 | 10:18:35,785 | DEBUG | XNIO-1 I/O-1 | io.undertow.request |     | Matched default handler path /generate/QrCode
+26 三月 2019 | 10:18:35,786 | DEBUG | XNIO-1 task-21 | undertow.request.security |     | Attempting to authenticate /generate/QrCode, authentication required: false
+26 三月 2019 | 10:18:35,787 | DEBUG | XNIO-1 task-21 | undertow.request.security |     | Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@407530a7 for /generate/QrCode
+26 三月 2019 | 10:18:35,787 | DEBUG | XNIO-1 task-21 | undertow.request.security |     | Authentication result was ATTEMPTED for /generate/QrCode
+26 三月 2019 | 10:18:35,867 | DEBUG | XNIO-1 I/O-1 | io.undertow.request |     | Matched default handler path /user/page/pageQuery
+26 三月 2019 | 10:18:35,871 | DEBUG | XNIO-1 task-22 | undertow.request.security |     | Attempting to authenticate /user/page/pageQuery, authentication required: false
+26 三月 2019 | 10:18:35,872 | DEBUG | XNIO-1 task-22 | undertow.request.security |     | Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@407530a7 for /user/page/pageQuery
+26 三月 2019 | 10:18:35,873 | DEBUG | XNIO-1 task-22 | undertow.request.security |     | Authentication result was ATTEMPTED for /user/page/pageQuery
+26 三月 2019 | 10:19:35,941 | DEBUG | XNIO-1 I/O-1 | io.undertow.request |     | Timing out idle connection from /127.0.0.1:51760
+26 三月 2019 | 10:26:22,537 | DEBUG | XNIO-1 I/O-4 | io.undertow.request |     | Matched default handler path /index
+26 三月 2019 | 10:26:22,538 | DEBUG | XNIO-1 task-23 | undertow.request.security |     | Attempting to authenticate /index, authentication required: false
+26 三月 2019 | 10:26:22,539 | DEBUG | XNIO-1 task-23 | undertow.request.security |     | Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@407530a7 for /index
+26 三月 2019 | 10:26:22,539 | DEBUG | XNIO-1 task-23 | undertow.request.security |     | Authentication result was ATTEMPTED for /index
+26 三月 2019 | 10:26:22,563 | DEBUG | XNIO-1 I/O-4 | io.undertow.request |     | Matched default handler path /generate/QrCode
+26 三月 2019 | 10:26:22,564 | DEBUG | XNIO-1 task-24 | undertow.request.security |     | Attempting to authenticate /generate/QrCode, authentication required: false
+26 三月 2019 | 10:26:22,564 | DEBUG | XNIO-1 task-24 | undertow.request.security |     | Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@407530a7 for /generate/QrCode
+26 三月 2019 | 10:26:22,565 | DEBUG | XNIO-1 task-24 | undertow.request.security |     | Authentication result was ATTEMPTED for /generate/QrCode
+26 三月 2019 | 10:26:22,627 | DEBUG | XNIO-1 I/O-4 | io.undertow.request |     | Matched default handler path /user/page/pageQuery
+26 三月 2019 | 10:26:22,629 | DEBUG | XNIO-1 task-25 | undertow.request.security |     | Attempting to authenticate /user/page/pageQuery, authentication required: false
+26 三月 2019 | 10:26:22,630 | DEBUG | XNIO-1 task-25 | undertow.request.security |     | Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@407530a7 for /user/page/pageQuery
+26 三月 2019 | 10:26:22,631 | DEBUG | XNIO-1 task-25 | undertow.request.security |     | Authentication result was ATTEMPTED for /user/page/pageQuery
+26 三月 2019 | 10:26:23,671 | DEBUG | XNIO-1 I/O-4 | io.undertow.request |     | Matched default handler path /index
+26 三月 2019 | 10:26:23,673 | DEBUG | XNIO-1 task-26 | undertow.request.security |     | Attempting to authenticate /index, authentication required: false
+26 三月 2019 | 10:26:23,673 | DEBUG | XNIO-1 task-26 | undertow.request.security |     | Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@407530a7 for /index
+26 三月 2019 | 10:26:23,673 | DEBUG | XNIO-1 task-26 | undertow.request.security |     | Authentication result was ATTEMPTED for /index
+26 三月 2019 | 10:26:23,690 | DEBUG | XNIO-1 I/O-4 | io.undertow.request |     | Matched default handler path /generate/QrCode
+26 三月 2019 | 10:26:23,692 | DEBUG | XNIO-1 task-27 | undertow.request.security |     | Attempting to authenticate /generate/QrCode, authentication required: false
+26 三月 2019 | 10:26:23,692 | DEBUG | XNIO-1 task-27 | undertow.request.security |     | Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@407530a7 for /generate/QrCode
+26 三月 2019 | 10:26:23,693 | DEBUG | XNIO-1 task-27 | undertow.request.security |     | Authentication result was ATTEMPTED for /generate/QrCode
+26 三月 2019 | 10:26:23,775 | DEBUG | XNIO-1 I/O-4 | io.undertow.request |     | Matched default handler path /user/page/pageQuery
+26 三月 2019 | 10:26:23,779 | DEBUG | XNIO-1 task-28 | undertow.request.security |     | Attempting to authenticate /user/page/pageQuery, authentication required: false
+26 三月 2019 | 10:26:23,781 | DEBUG | XNIO-1 task-28 | undertow.request.security |     | Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@407530a7 for /user/page/pageQuery
+26 三月 2019 | 10:26:23,782 | DEBUG | XNIO-1 task-28 | undertow.request.security |     | Authentication result was ATTEMPTED for /user/page/pageQuery
+26 三月 2019 | 10:26:24,329 | DEBUG | XNIO-1 I/O-4 | io.undertow.request |     | Matched default handler path /index
+26 三月 2019 | 10:26:24,330 | DEBUG | XNIO-1 task-29 | undertow.request.security |     | Attempting to authenticate /index, authentication required: false
+26 三月 2019 | 10:26:24,331 | DEBUG | XNIO-1 task-29 | undertow.request.security |     | Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@407530a7 for /index
+26 三月 2019 | 10:26:24,331 | DEBUG | XNIO-1 task-29 | undertow.request.security |     | Authentication result was ATTEMPTED for /index
+26 三月 2019 | 10:26:24,350 | DEBUG | XNIO-1 I/O-4 | io.undertow.request |     | Matched default handler path /generate/QrCode
+26 三月 2019 | 10:26:24,351 | DEBUG | XNIO-1 task-30 | undertow.request.security |     | Attempting to authenticate /generate/QrCode, authentication required: false
+26 三月 2019 | 10:26:24,352 | DEBUG | XNIO-1 task-30 | undertow.request.security |     | Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@407530a7 for /generate/QrCode
+26 三月 2019 | 10:26:24,352 | DEBUG | XNIO-1 task-30 | undertow.request.security |     | Authentication result was ATTEMPTED for /generate/QrCode
+26 三月 2019 | 10:26:24,410 | DEBUG | XNIO-1 I/O-4 | io.undertow.request |     | Matched default handler path /user/page/pageQuery
+26 三月 2019 | 10:26:24,411 | DEBUG | XNIO-1 task-31 | undertow.request.security |     | Attempting to authenticate /user/page/pageQuery, authentication required: false
+26 三月 2019 | 10:26:24,411 | DEBUG | XNIO-1 task-31 | undertow.request.security |     | Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@407530a7 for /user/page/pageQuery
+26 三月 2019 | 10:26:24,411 | DEBUG | XNIO-1 task-31 | undertow.request.security |     | Authentication result was ATTEMPTED for /user/page/pageQuery
+26 三月 2019 | 10:27:24,465 | DEBUG | XNIO-1 I/O-4 | io.undertow.request |     | Timing out idle connection from /127.0.0.1:54091
+26 三月 2019 | 10:27:32,026 | DEBUG | XNIO-1 I/O-1 | io.undertow.request |     | Matched default handler path /index
+26 三月 2019 | 10:27:32,027 | DEBUG | XNIO-1 task-32 | undertow.request.security |     | Attempting to authenticate /index, authentication required: false
+26 三月 2019 | 10:27:32,028 | DEBUG | XNIO-1 task-32 | undertow.request.security |     | Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@407530a7 for /index
+26 三月 2019 | 10:27:32,028 | DEBUG | XNIO-1 task-32 | undertow.request.security |     | Authentication result was ATTEMPTED for /index
+26 三月 2019 | 10:27:32,050 | DEBUG | XNIO-1 I/O-1 | io.undertow.request |     | Matched default handler path /generate/QrCode
+26 三月 2019 | 10:27:32,051 | DEBUG | XNIO-1 task-33 | undertow.request.security |     | Attempting to authenticate /generate/QrCode, authentication required: false
+26 三月 2019 | 10:27:32,051 | DEBUG | XNIO-1 task-33 | undertow.request.security |     | Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@407530a7 for /generate/QrCode
+26 三月 2019 | 10:27:32,051 | DEBUG | XNIO-1 task-33 | undertow.request.security |     | Authentication result was ATTEMPTED for /generate/QrCode
+26 三月 2019 | 10:27:33,136 | DEBUG | XNIO-1 I/O-1 | io.undertow.request |     | Matched default handler path /user/page/pageQuery
+26 三月 2019 | 10:27:33,138 | DEBUG | XNIO-1 task-34 | undertow.request.security |     | Attempting to authenticate /user/page/pageQuery, authentication required: false
+26 三月 2019 | 10:27:33,139 | DEBUG | XNIO-1 task-34 | undertow.request.security |     | Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@407530a7 for /user/page/pageQuery
+26 三月 2019 | 10:27:33,140 | DEBUG | XNIO-1 task-34 | undertow.request.security |     | Authentication result was ATTEMPTED for /user/page/pageQuery
+26 三月 2019 | 10:28:33,199 | DEBUG | XNIO-1 I/O-1 | io.undertow.request |     | Timing out idle connection from /127.0.0.1:54264
+26 三月 2019 | 10:30:01,465 | DEBUG | XNIO-1 I/O-3 | io.undertow.request |     | Matched default handler path /index
+26 三月 2019 | 10:30:01,466 | DEBUG | XNIO-1 task-35 | undertow.request.security |     | Attempting to authenticate /index, authentication required: false
+26 三月 2019 | 10:30:01,467 | DEBUG | XNIO-1 task-35 | undertow.request.security |     | Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@407530a7 for /index
+26 三月 2019 | 10:30:01,467 | DEBUG | XNIO-1 task-35 | undertow.request.security |     | Authentication result was ATTEMPTED for /index
+26 三月 2019 | 10:30:01,483 | DEBUG | XNIO-1 I/O-3 | io.undertow.request |     | Matched default handler path /js/bootstrap-paginator.js
+26 三月 2019 | 10:30:01,487 | DEBUG | XNIO-1 I/O-4 | io.undertow.request |     | Matched default handler path /generate/QrCode
+26 三月 2019 | 10:30:01,487 | DEBUG | XNIO-1 task-36 | undertow.request.security |     | Attempting to authenticate /generate/QrCode, authentication required: false
+26 三月 2019 | 10:30:01,489 | DEBUG | XNIO-1 task-37 | undertow.request.security |     | Attempting to authenticate /js/bootstrap-paginator.js, authentication required: false
+26 三月 2019 | 10:30:01,489 | DEBUG | XNIO-1 task-36 | undertow.request.security |     | Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@407530a7 for /generate/QrCode
+26 三月 2019 | 10:30:01,489 | DEBUG | XNIO-1 task-37 | undertow.request.security |     | Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@407530a7 for /js/bootstrap-paginator.js
+26 三月 2019 | 10:30:01,490 | DEBUG | XNIO-1 task-36 | undertow.request.security |     | Authentication result was ATTEMPTED for /generate/QrCode
+26 三月 2019 | 10:30:01,491 | DEBUG | XNIO-1 task-37 | undertow.request.security |     | Authentication result was ATTEMPTED for /js/bootstrap-paginator.js
+26 三月 2019 | 10:30:01,587 | DEBUG | XNIO-1 I/O-3 | io.undertow.request |     | Matched default handler path /user/page/pageQuery
+26 三月 2019 | 10:30:01,590 | DEBUG | XNIO-1 task-38 | undertow.request.security |     | Attempting to authenticate /user/page/pageQuery, authentication required: false
+26 三月 2019 | 10:30:01,592 | DEBUG | XNIO-1 task-38 | undertow.request.security |     | Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@407530a7 for /user/page/pageQuery
+26 三月 2019 | 10:30:01,592 | DEBUG | XNIO-1 task-38 | undertow.request.security |     | Authentication result was ATTEMPTED for /user/page/pageQuery
+26 三月 2019 | 10:30:09,493 | DEBUG | XNIO-1 I/O-3 | io.undertow.request |     | Matched default handler path /user/page/pageQuery
+26 三月 2019 | 10:30:09,494 | DEBUG | XNIO-1 task-39 | undertow.request.security |     | Attempting to authenticate /user/page/pageQuery, authentication required: false
+26 三月 2019 | 10:30:09,494 | DEBUG | XNIO-1 task-39 | undertow.request.security |     | Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@407530a7 for /user/page/pageQuery
+26 三月 2019 | 10:30:09,495 | DEBUG | XNIO-1 task-39 | undertow.request.security |     | Authentication result was ATTEMPTED for /user/page/pageQuery
+26 三月 2019 | 10:30:10,661 | DEBUG | XNIO-1 I/O-3 | io.undertow.request |     | Matched default handler path /user/page/pageQuery
+26 三月 2019 | 10:30:10,662 | DEBUG | XNIO-1 task-40 | undertow.request.security |     | Attempting to authenticate /user/page/pageQuery, authentication required: false
+26 三月 2019 | 10:30:10,664 | DEBUG | XNIO-1 task-40 | undertow.request.security |     | Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@407530a7 for /user/page/pageQuery
+26 三月 2019 | 10:30:10,665 | DEBUG | XNIO-1 task-40 | undertow.request.security |     | Authentication result was ATTEMPTED for /user/page/pageQuery
+26 三月 2019 | 10:30:11,124 | DEBUG | XNIO-1 I/O-3 | io.undertow.request |     | Matched default handler path /user/page/pageQuery
+26 三月 2019 | 10:30:11,127 | DEBUG | XNIO-1 task-41 | undertow.request.security |     | Attempting to authenticate /user/page/pageQuery, authentication required: false
+26 三月 2019 | 10:30:11,128 | DEBUG | XNIO-1 task-41 | undertow.request.security |     | Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@407530a7 for /user/page/pageQuery
+26 三月 2019 | 10:30:11,128 | DEBUG | XNIO-1 task-41 | undertow.request.security |     | Authentication result was ATTEMPTED for /user/page/pageQuery
+26 三月 2019 | 10:30:11,476 | DEBUG | XNIO-1 I/O-3 | io.undertow.request |     | Matched default handler path /user/page/pageQuery
+26 三月 2019 | 10:30:11,477 | DEBUG | XNIO-1 task-42 | undertow.request.security |     | Attempting to authenticate /user/page/pageQuery, authentication required: false
+26 三月 2019 | 10:30:11,478 | DEBUG | XNIO-1 task-42 | undertow.request.security |     | Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@407530a7 for /user/page/pageQuery
+26 三月 2019 | 10:30:11,479 | DEBUG | XNIO-1 task-42 | undertow.request.security |     | Authentication result was ATTEMPTED for /user/page/pageQuery
+26 三月 2019 | 10:30:11,708 | DEBUG | XNIO-1 I/O-3 | io.undertow.request |     | Matched default handler path /user/page/pageQuery
+26 三月 2019 | 10:30:11,709 | DEBUG | XNIO-1 task-43 | undertow.request.security |     | Attempting to authenticate /user/page/pageQuery, authentication required: false
+26 三月 2019 | 10:30:11,710 | DEBUG | XNIO-1 task-43 | undertow.request.security |     | Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@407530a7 for /user/page/pageQuery
+26 三月 2019 | 10:30:11,710 | DEBUG | XNIO-1 task-43 | undertow.request.security |     | Authentication result was ATTEMPTED for /user/page/pageQuery
+26 三月 2019 | 10:30:11,916 | DEBUG | XNIO-1 I/O-3 | io.undertow.request |     | Matched default handler path /user/page/pageQuery
+26 三月 2019 | 10:30:11,917 | DEBUG | XNIO-1 task-44 | undertow.request.security |     | Attempting to authenticate /user/page/pageQuery, authentication required: false
+26 三月 2019 | 10:30:11,918 | DEBUG | XNIO-1 task-44 | undertow.request.security |     | Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@407530a7 for /user/page/pageQuery
+26 三月 2019 | 10:30:11,919 | DEBUG | XNIO-1 task-44 | undertow.request.security |     | Authentication result was ATTEMPTED for /user/page/pageQuery
+26 三月 2019 | 10:30:12,660 | DEBUG | XNIO-1 I/O-3 | io.undertow.request |     | Matched default handler path /user/page/pageQuery
+26 三月 2019 | 10:30:12,661 | DEBUG | XNIO-1 task-45 | undertow.request.security |     | Attempting to authenticate /user/page/pageQuery, authentication required: false
+26 三月 2019 | 10:30:12,662 | DEBUG | XNIO-1 task-45 | undertow.request.security |     | Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@407530a7 for /user/page/pageQuery
+26 三月 2019 | 10:30:12,663 | DEBUG | XNIO-1 task-45 | undertow.request.security |     | Authentication result was ATTEMPTED for /user/page/pageQuery
+26 三月 2019 | 10:30:16,782 | DEBUG | XNIO-1 I/O-3 | io.undertow.request |     | Matched default handler path /index
+26 三月 2019 | 10:30:16,783 | DEBUG | XNIO-1 task-46 | undertow.request.security |     | Attempting to authenticate /index, authentication required: false
+26 三月 2019 | 10:30:16,783 | DEBUG | XNIO-1 task-46 | undertow.request.security |     | Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@407530a7 for /index
+26 三月 2019 | 10:30:16,783 | DEBUG | XNIO-1 task-46 | undertow.request.security |     | Authentication result was ATTEMPTED for /index
+26 三月 2019 | 10:30:16,799 | DEBUG | XNIO-1 I/O-3 | io.undertow.request |     | Matched default handler path /js/bootstrap-paginator.js
+26 三月 2019 | 10:30:16,800 | DEBUG | XNIO-1 task-47 | undertow.request.security |     | Attempting to authenticate /js/bootstrap-paginator.js, authentication required: false
+26 三月 2019 | 10:30:16,801 | DEBUG | XNIO-1 task-47 | undertow.request.security |     | Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@407530a7 for /js/bootstrap-paginator.js
+26 三月 2019 | 10:30:16,801 | DEBUG | XNIO-1 I/O-4 | io.undertow.request |     | Matched default handler path /generate/QrCode
+26 三月 2019 | 10:30:16,801 | DEBUG | XNIO-1 task-47 | undertow.request.security |     | Authentication result was ATTEMPTED for /js/bootstrap-paginator.js
+26 三月 2019 | 10:30:16,802 | DEBUG | XNIO-1 task-48 | undertow.request.security |     | Attempting to authenticate /generate/QrCode, authentication required: false
+26 三月 2019 | 10:30:16,803 | DEBUG | XNIO-1 task-48 | undertow.request.security |     | Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@407530a7 for /generate/QrCode
+26 三月 2019 | 10:30:16,803 | DEBUG | XNIO-1 task-48 | undertow.request.security |     | Authentication result was ATTEMPTED for /generate/QrCode
+26 三月 2019 | 10:30:16,882 | DEBUG | XNIO-1 I/O-4 | io.undertow.request |     | Matched default handler path /user/page/pageQuery
+26 三月 2019 | 10:30:16,886 | DEBUG | XNIO-1 task-49 | undertow.request.security |     | Attempting to authenticate /user/page/pageQuery, authentication required: false
+26 三月 2019 | 10:30:16,887 | DEBUG | XNIO-1 task-49 | undertow.request.security |     | Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@407530a7 for /user/page/pageQuery
+26 三月 2019 | 10:30:16,887 | DEBUG | XNIO-1 task-49 | undertow.request.security |     | Authentication result was ATTEMPTED for /user/page/pageQuery
+26 三月 2019 | 10:30:25,277 | DEBUG | XNIO-1 I/O-4 | io.undertow.request |     | Matched default handler path /user/page/pageQuery
+26 三月 2019 | 10:30:25,278 | DEBUG | XNIO-1 task-50 | undertow.request.security |     | Attempting to authenticate /user/page/pageQuery, authentication required: false
+26 三月 2019 | 10:30:25,279 | DEBUG | XNIO-1 task-50 | undertow.request.security |     | Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@407530a7 for /user/page/pageQuery
+26 三月 2019 | 10:30:25,279 | DEBUG | XNIO-1 task-50 | undertow.request.security |     | Authentication result was ATTEMPTED for /user/page/pageQuery
+26 三月 2019 | 10:30:59,455 | DEBUG | XNIO-1 I/O-4 | io.undertow.request |     | Matched default handler path /index
+26 三月 2019 | 10:30:59,457 | DEBUG | XNIO-1 task-51 | undertow.request.security |     | Attempting to authenticate /index, authentication required: false
+26 三月 2019 | 10:30:59,457 | DEBUG | XNIO-1 task-51 | undertow.request.security |     | Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@407530a7 for /index
+26 三月 2019 | 10:30:59,458 | DEBUG | XNIO-1 task-51 | undertow.request.security |     | Authentication result was ATTEMPTED for /index
+26 三月 2019 | 10:30:59,474 | DEBUG | XNIO-1 I/O-4 | io.undertow.request |     | Matched default handler path /js/bootstrap-paginator.js
+26 三月 2019 | 10:30:59,477 | DEBUG | XNIO-1 task-52 | undertow.request.security |     | Attempting to authenticate /js/bootstrap-paginator.js, authentication required: false
+26 三月 2019 | 10:30:59,478 | DEBUG | XNIO-1 task-52 | undertow.request.security |     | Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@407530a7 for /js/bootstrap-paginator.js
+26 三月 2019 | 10:30:59,478 | DEBUG | XNIO-1 I/O-3 | io.undertow.request |     | Matched default handler path /generate/QrCode
+26 三月 2019 | 10:30:59,478 | DEBUG | XNIO-1 task-52 | undertow.request.security |     | Authentication result was ATTEMPTED for /js/bootstrap-paginator.js
+26 三月 2019 | 10:30:59,480 | DEBUG | XNIO-1 task-53 | undertow.request.security |     | Attempting to authenticate /generate/QrCode, authentication required: false
+26 三月 2019 | 10:30:59,480 | DEBUG | XNIO-1 task-53 | undertow.request.security |     | Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@407530a7 for /generate/QrCode
+26 三月 2019 | 10:30:59,481 | DEBUG | XNIO-1 task-53 | undertow.request.security |     | Authentication result was ATTEMPTED for /generate/QrCode
+26 三月 2019 | 10:30:59,546 | DEBUG | XNIO-1 I/O-3 | io.undertow.request |     | Matched default handler path /user/page/pageQuery
+26 三月 2019 | 10:30:59,547 | DEBUG | XNIO-1 task-54 | undertow.request.security |     | Attempting to authenticate /user/page/pageQuery, authentication required: false
+26 三月 2019 | 10:30:59,548 | DEBUG | XNIO-1 task-54 | undertow.request.security |     | Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@407530a7 for /user/page/pageQuery
+26 三月 2019 | 10:30:59,548 | DEBUG | XNIO-1 task-54 | undertow.request.security |     | Authentication result was ATTEMPTED for /user/page/pageQuery
+26 三月 2019 | 10:31:00,836 | DEBUG | XNIO-1 I/O-3 | io.undertow.request |     | Matched default handler path /user/page/pageQuery
+26 三月 2019 | 10:31:00,839 | DEBUG | XNIO-1 task-55 | undertow.request.security |     | Attempting to authenticate /user/page/pageQuery, authentication required: false
+26 三月 2019 | 10:31:00,839 | DEBUG | XNIO-1 task-55 | undertow.request.security |     | Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@407530a7 for /user/page/pageQuery
+26 三月 2019 | 10:31:00,839 | DEBUG | XNIO-1 task-55 | undertow.request.security |     | Authentication result was ATTEMPTED for /user/page/pageQuery
+26 三月 2019 | 10:31:01,764 | DEBUG | XNIO-1 I/O-3 | io.undertow.request |     | Matched default handler path /user/page/pageQuery
+26 三月 2019 | 10:31:01,765 | DEBUG | XNIO-1 task-56 | undertow.request.security |     | Attempting to authenticate /user/page/pageQuery, authentication required: false
+26 三月 2019 | 10:31:01,766 | DEBUG | XNIO-1 task-56 | undertow.request.security |     | Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@407530a7 for /user/page/pageQuery
+26 三月 2019 | 10:31:01,766 | DEBUG | XNIO-1 task-56 | undertow.request.security |     | Authentication result was ATTEMPTED for /user/page/pageQuery
+26 三月 2019 | 10:31:02,196 | DEBUG | XNIO-1 I/O-3 | io.undertow.request |     | Matched default handler path /user/page/pageQuery
+26 三月 2019 | 10:31:02,199 | DEBUG | XNIO-1 task-57 | undertow.request.security |     | Attempting to authenticate /user/page/pageQuery, authentication required: false
+26 三月 2019 | 10:31:02,199 | DEBUG | XNIO-1 task-57 | undertow.request.security |     | Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@407530a7 for /user/page/pageQuery
+26 三月 2019 | 10:31:02,199 | DEBUG | XNIO-1 task-57 | undertow.request.security |     | Authentication result was ATTEMPTED for /user/page/pageQuery
+26 三月 2019 | 10:31:02,412 | DEBUG | XNIO-1 I/O-3 | io.undertow.request |     | Matched default handler path /user/page/pageQuery
+26 三月 2019 | 10:31:02,413 | DEBUG | XNIO-1 task-58 | undertow.request.security |     | Attempting to authenticate /user/page/pageQuery, authentication required: false
+26 三月 2019 | 10:31:02,414 | DEBUG | XNIO-1 task-58 | undertow.request.security |     | Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@407530a7 for /user/page/pageQuery
+26 三月 2019 | 10:31:02,415 | DEBUG | XNIO-1 task-58 | undertow.request.security |     | Authentication result was ATTEMPTED for /user/page/pageQuery
+26 三月 2019 | 10:31:07,365 | DEBUG | XNIO-1 I/O-3 | io.undertow.request |     | Matched default handler path /user/page/pageQuery
+26 三月 2019 | 10:31:07,369 | DEBUG | XNIO-1 task-59 | undertow.request.security |     | Attempting to authenticate /user/page/pageQuery, authentication required: false
+26 三月 2019 | 10:31:07,371 | DEBUG | XNIO-1 task-59 | undertow.request.security |     | Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@407530a7 for /user/page/pageQuery
+26 三月 2019 | 10:31:07,371 | DEBUG | XNIO-1 task-59 | undertow.request.security |     | Authentication result was ATTEMPTED for /user/page/pageQuery
+26 三月 2019 | 10:31:09,156 | DEBUG | XNIO-1 I/O-3 | io.undertow.request |     | Matched default handler path /user/page/pageQuery
+26 三月 2019 | 10:31:09,159 | DEBUG | XNIO-1 task-60 | undertow.request.security |     | Attempting to authenticate /user/page/pageQuery, authentication required: false
+26 三月 2019 | 10:31:09,160 | DEBUG | XNIO-1 task-60 | undertow.request.security |     | Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@407530a7 for /user/page/pageQuery
+26 三月 2019 | 10:31:09,160 | DEBUG | XNIO-1 task-60 | undertow.request.security |     | Authentication result was ATTEMPTED for /user/page/pageQuery
+26 三月 2019 | 10:31:59,530 | DEBUG | XNIO-1 I/O-4 | io.undertow.request |     | Timing out idle connection from /127.0.0.1:54547
+26 三月 2019 | 10:32:09,214 | DEBUG | XNIO-1 I/O-3 | io.undertow.request |     | Timing out idle connection from /127.0.0.1:54546
+26 三月 2019 | 10:32:40,727 | DEBUG | XNIO-1 I/O-4 | io.undertow.request |     | Matched default handler path /index
+26 三月 2019 | 10:32:40,729 | DEBUG | XNIO-1 task-61 | undertow.request.security |     | Attempting to authenticate /index, authentication required: false
+26 三月 2019 | 10:32:40,730 | DEBUG | XNIO-1 task-61 | undertow.request.security |     | Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@407530a7 for /index
+26 三月 2019 | 10:32:40,730 | DEBUG | XNIO-1 task-61 | undertow.request.security |     | Authentication result was ATTEMPTED for /index
+26 三月 2019 | 10:32:40,754 | DEBUG | XNIO-1 I/O-4 | io.undertow.request |     | Matched default handler path /js/bootstrap-paginator.js
+26 三月 2019 | 10:32:40,756 | DEBUG | XNIO-1 task-62 | undertow.request.security |     | Attempting to authenticate /js/bootstrap-paginator.js, authentication required: false
+26 三月 2019 | 10:32:40,757 | DEBUG | XNIO-1 task-62 | undertow.request.security |     | Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@407530a7 for /js/bootstrap-paginator.js
+26 三月 2019 | 10:32:40,757 | DEBUG | XNIO-1 task-62 | undertow.request.security |     | Authentication result was ATTEMPTED for /js/bootstrap-paginator.js
+26 三月 2019 | 10:32:40,759 | DEBUG | XNIO-1 I/O-5 | io.undertow.request |     | Matched default handler path /generate/QrCode
+26 三月 2019 | 10:32:40,760 | DEBUG | XNIO-1 task-63 | undertow.request.security |     | Attempting to authenticate /generate/QrCode, authentication required: false
+26 三月 2019 | 10:32:40,761 | DEBUG | XNIO-1 task-63 | undertow.request.security |     | Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@407530a7 for /generate/QrCode
+26 三月 2019 | 10:32:40,761 | DEBUG | XNIO-1 task-63 | undertow.request.security |     | Authentication result was ATTEMPTED for /generate/QrCode
+26 三月 2019 | 10:33:40,779 | DEBUG | XNIO-1 I/O-4 | io.undertow.request |     | Timing out idle connection from /127.0.0.1:54795
+26 三月 2019 | 10:33:40,809 | DEBUG | XNIO-1 I/O-5 | io.undertow.request |     | Timing out idle connection from /127.0.0.1:54796
+26 三月 2019 | 10:36:53,729 | DEBUG | XNIO-1 I/O-6 | io.undertow.request |     | Matched default handler path /index
+26 三月 2019 | 10:36:53,730 | DEBUG | XNIO-1 task-64 | undertow.request.security |     | Attempting to authenticate /index, authentication required: false
+26 三月 2019 | 10:36:53,731 | DEBUG | XNIO-1 task-64 | undertow.request.security |     | Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@407530a7 for /index
+26 三月 2019 | 10:36:53,731 | DEBUG | XNIO-1 task-64 | undertow.request.security |     | Authentication result was ATTEMPTED for /index
+26 三月 2019 | 10:36:53,752 | DEBUG | XNIO-1 I/O-6 | io.undertow.request |     | Matched default handler path /js/bootstrap-paginator.js
+26 三月 2019 | 10:36:53,755 | DEBUG | XNIO-1 I/O-7 | io.undertow.request |     | Matched default handler path /generate/QrCode
+26 三月 2019 | 10:36:53,755 | DEBUG | XNIO-1 task-1 | undertow.request.security |     | Attempting to authenticate /js/bootstrap-paginator.js, authentication required: false
+26 三月 2019 | 10:36:53,756 | DEBUG | XNIO-1 task-1 | undertow.request.security |     | Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@407530a7 for /js/bootstrap-paginator.js
+26 三月 2019 | 10:36:53,756 | DEBUG | XNIO-1 task-1 | undertow.request.security |     | Authentication result was ATTEMPTED for /js/bootstrap-paginator.js
+26 三月 2019 | 10:36:53,757 | DEBUG | XNIO-1 task-2 | undertow.request.security |     | Attempting to authenticate /generate/QrCode, authentication required: false
+26 三月 2019 | 10:36:53,757 | DEBUG | XNIO-1 task-2 | undertow.request.security |     | Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@407530a7 for /generate/QrCode
+26 三月 2019 | 10:36:53,757 | DEBUG | XNIO-1 task-2 | undertow.request.security |     | Authentication result was ATTEMPTED for /generate/QrCode
+26 三月 2019 | 10:36:53,833 | DEBUG | XNIO-1 I/O-7 | io.undertow.request |     | Matched default handler path /user/page/pageQuery
+26 三月 2019 | 10:36:53,834 | DEBUG | XNIO-1 task-3 | undertow.request.security |     | Attempting to authenticate /user/page/pageQuery, authentication required: false
+26 三月 2019 | 10:36:53,835 | DEBUG | XNIO-1 task-3 | undertow.request.security |     | Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@407530a7 for /user/page/pageQuery
+26 三月 2019 | 10:36:53,835 | DEBUG | XNIO-1 task-3 | undertow.request.security |     | Authentication result was ATTEMPTED for /user/page/pageQuery
+26 三月 2019 | 10:36:56,172 | DEBUG | XNIO-1 I/O-7 | io.undertow.request |     | Matched default handler path /user/page/pageQuery
+26 三月 2019 | 10:36:56,173 | DEBUG | XNIO-1 task-4 | undertow.request.security |     | Attempting to authenticate /user/page/pageQuery, authentication required: false
+26 三月 2019 | 10:36:56,173 | DEBUG | XNIO-1 task-4 | undertow.request.security |     | Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@407530a7 for /user/page/pageQuery
+26 三月 2019 | 10:36:56,173 | DEBUG | XNIO-1 task-4 | undertow.request.security |     | Authentication result was ATTEMPTED for /user/page/pageQuery
+26 三月 2019 | 10:36:56,611 | DEBUG | XNIO-1 I/O-7 | io.undertow.request |     | Matched default handler path /user/page/pageQuery
+26 三月 2019 | 10:36:56,611 | DEBUG | XNIO-1 task-5 | undertow.request.security |     | Attempting to authenticate /user/page/pageQuery, authentication required: false
+26 三月 2019 | 10:36:56,612 | DEBUG | XNIO-1 task-5 | undertow.request.security |     | Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@407530a7 for /user/page/pageQuery
+26 三月 2019 | 10:36:56,612 | DEBUG | XNIO-1 task-5 | undertow.request.security |     | Authentication result was ATTEMPTED for /user/page/pageQuery
+26 三月 2019 | 10:36:56,820 | DEBUG | XNIO-1 I/O-7 | io.undertow.request |     | Matched default handler path /user/page/pageQuery
+26 三月 2019 | 10:36:56,820 | DEBUG | XNIO-1 task-6 | undertow.request.security |     | Attempting to authenticate /user/page/pageQuery, authentication required: false
+26 三月 2019 | 10:36:56,821 | DEBUG | XNIO-1 task-6 | undertow.request.security |     | Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@407530a7 for /user/page/pageQuery
+26 三月 2019 | 10:36:56,821 | DEBUG | XNIO-1 task-6 | undertow.request.security |     | Authentication result was ATTEMPTED for /user/page/pageQuery
+26 三月 2019 | 10:37:41,948 | DEBUG | XNIO-1 I/O-7 | io.undertow.request |     | Matched default handler path /user/page/pageQuery
+26 三月 2019 | 10:37:41,949 | DEBUG | XNIO-1 task-7 | undertow.request.security |     | Attempting to authenticate /user/page/pageQuery, authentication required: false
+26 三月 2019 | 10:37:41,949 | DEBUG | XNIO-1 task-7 | undertow.request.security |     | Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@407530a7 for /user/page/pageQuery
+26 三月 2019 | 10:37:41,949 | DEBUG | XNIO-1 task-7 | undertow.request.security |     | Authentication result was ATTEMPTED for /user/page/pageQuery
+26 三月 2019 | 10:37:53,779 | DEBUG | XNIO-1 I/O-6 | io.undertow.request |     | Timing out idle connection from /127.0.0.1:55197
+26 三月 2019 | 10:38:42,002 | DEBUG | XNIO-1 I/O-7 | io.undertow.request |     | Timing out idle connection from /127.0.0.1:55198
+26 三月 2019 | 10:49:52,166 | DEBUG | XNIO-1 I/O-1 | io.undertow.request |     | Matched default handler path /index
+26 三月 2019 | 10:49:52,167 | DEBUG | XNIO-1 task-9 | undertow.request.security |     | Attempting to authenticate /index, authentication required: false
+26 三月 2019 | 10:49:52,167 | DEBUG | XNIO-1 task-9 | undertow.request.security |     | Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@407530a7 for /index
+26 三月 2019 | 10:49:52,167 | DEBUG | XNIO-1 task-9 | undertow.request.security |     | Authentication result was ATTEMPTED for /index
+26 三月 2019 | 10:49:52,189 | DEBUG | XNIO-1 I/O-1 | io.undertow.request |     | Matched default handler path /js/bootstrap-paginator.js
+26 三月 2019 | 10:49:52,189 | DEBUG | XNIO-1 task-10 | undertow.request.security |     | Attempting to authenticate /js/bootstrap-paginator.js, authentication required: false
+26 三月 2019 | 10:49:52,190 | DEBUG | XNIO-1 task-10 | undertow.request.security |     | Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@407530a7 for /js/bootstrap-paginator.js
+26 三月 2019 | 10:49:52,190 | DEBUG | XNIO-1 task-10 | undertow.request.security |     | Authentication result was ATTEMPTED for /js/bootstrap-paginator.js
+26 三月 2019 | 10:49:52,192 | DEBUG | XNIO-1 I/O-2 | io.undertow.request |     | Matched default handler path /generate/QrCode
+26 三月 2019 | 10:49:52,192 | DEBUG | XNIO-1 task-11 | undertow.request.security |     | Attempting to authenticate /generate/QrCode, authentication required: false
+26 三月 2019 | 10:49:52,196 | DEBUG | XNIO-1 task-11 | undertow.request.security |     | Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@407530a7 for /generate/QrCode
+26 三月 2019 | 10:49:52,197 | DEBUG | XNIO-1 task-11 | undertow.request.security |     | Authentication result was ATTEMPTED for /generate/QrCode
+26 三月 2019 | 10:50:52,242 | DEBUG | XNIO-1 I/O-2 | io.undertow.request |     | Timing out idle connection from /127.0.0.1:57065
+26 三月 2019 | 10:50:52,270 | DEBUG | XNIO-1 I/O-1 | io.undertow.request |     | Timing out idle connection from /127.0.0.1:57064
+26 三月 2019 | 10:55:47,711 | DEBUG | XNIO-1 I/O-8 | io.undertow.request |     | Matched default handler path /index
+26 三月 2019 | 10:55:47,712 | DEBUG | XNIO-1 task-12 | undertow.request.security |     | Attempting to authenticate /index, authentication required: false
+26 三月 2019 | 10:55:47,712 | DEBUG | XNIO-1 task-12 | undertow.request.security |     | Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@407530a7 for /index
+26 三月 2019 | 10:55:47,712 | DEBUG | XNIO-1 task-12 | undertow.request.security |     | Authentication result was ATTEMPTED for /index
+26 三月 2019 | 10:55:47,734 | DEBUG | XNIO-1 I/O-8 | io.undertow.request |     | Matched default handler path /js/bootstrap-paginator.js
+26 三月 2019 | 10:55:47,734 | DEBUG | XNIO-1 task-13 | undertow.request.security |     | Attempting to authenticate /js/bootstrap-paginator.js, authentication required: false
+26 三月 2019 | 10:55:47,735 | DEBUG | XNIO-1 task-13 | undertow.request.security |     | Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@407530a7 for /js/bootstrap-paginator.js
+26 三月 2019 | 10:55:47,735 | DEBUG | XNIO-1 task-13 | undertow.request.security |     | Authentication result was ATTEMPTED for /js/bootstrap-paginator.js
+26 三月 2019 | 10:55:47,738 | DEBUG | XNIO-1 I/O-1 | io.undertow.request |     | Matched default handler path /generate/QrCode
+26 三月 2019 | 10:55:47,739 | DEBUG | XNIO-1 task-14 | undertow.request.security |     | Attempting to authenticate /generate/QrCode, authentication required: false
+26 三月 2019 | 10:55:47,739 | DEBUG | XNIO-1 task-14 | undertow.request.security |     | Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@407530a7 for /generate/QrCode
+26 三月 2019 | 10:55:47,739 | DEBUG | XNIO-1 task-14 | undertow.request.security |     | Authentication result was ATTEMPTED for /generate/QrCode
+26 三月 2019 | 10:55:47,829 | DEBUG | XNIO-1 I/O-1 | io.undertow.request |     | Matched default handler path /user/page/pageQuery
+26 三月 2019 | 10:55:47,829 | DEBUG | XNIO-1 task-15 | undertow.request.security |     | Attempting to authenticate /user/page/pageQuery, authentication required: false
+26 三月 2019 | 10:55:47,830 | DEBUG | XNIO-1 task-15 | undertow.request.security |     | Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@407530a7 for /user/page/pageQuery
+26 三月 2019 | 10:55:47,830 | DEBUG | XNIO-1 task-15 | undertow.request.security |     | Authentication result was ATTEMPTED for /user/page/pageQuery
+26 三月 2019 | 10:55:50,315 | DEBUG | XNIO-1 I/O-1 | io.undertow.request |     | Matched default handler path /user/page/pageQuery
+26 三月 2019 | 10:55:50,315 | DEBUG | XNIO-1 task-16 | undertow.request.security |     | Attempting to authenticate /user/page/pageQuery, authentication required: false
+26 三月 2019 | 10:55:50,315 | DEBUG | XNIO-1 task-16 | undertow.request.security |     | Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@407530a7 for /user/page/pageQuery
+26 三月 2019 | 10:55:50,315 | DEBUG | XNIO-1 task-16 | undertow.request.security |     | Authentication result was ATTEMPTED for /user/page/pageQuery
+26 三月 2019 | 10:55:53,954 | DEBUG | XNIO-1 I/O-1 | io.undertow.request |     | Matched default handler path /user/page/pageQuery
+26 三月 2019 | 10:55:53,954 | DEBUG | XNIO-1 task-17 | undertow.request.security |     | Attempting to authenticate /user/page/pageQuery, authentication required: false
+26 三月 2019 | 10:55:53,955 | DEBUG | XNIO-1 task-17 | undertow.request.security |     | Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@407530a7 for /user/page/pageQuery
+26 三月 2019 | 10:55:53,955 | DEBUG | XNIO-1 task-17 | undertow.request.security |     | Authentication result was ATTEMPTED for /user/page/pageQuery
+26 三月 2019 | 10:55:56,019 | DEBUG | XNIO-1 I/O-1 | io.undertow.request |     | Matched default handler path /user/page/pageQuery
+26 三月 2019 | 10:55:56,019 | DEBUG | XNIO-1 task-18 | undertow.request.security |     | Attempting to authenticate /user/page/pageQuery, authentication required: false
+26 三月 2019 | 10:55:56,020 | DEBUG | XNIO-1 task-18 | undertow.request.security |     | Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@407530a7 for /user/page/pageQuery
+26 三月 2019 | 10:55:56,020 | DEBUG | XNIO-1 task-18 | undertow.request.security |     | Authentication result was ATTEMPTED for /user/page/pageQuery
+26 三月 2019 | 10:55:58,218 | DEBUG | XNIO-1 I/O-1 | io.undertow.request |     | Matched default handler path /user/page/pageQuery
+26 三月 2019 | 10:55:58,218 | DEBUG | XNIO-1 task-19 | undertow.request.security |     | Attempting to authenticate /user/page/pageQuery, authentication required: false
+26 三月 2019 | 10:55:58,219 | DEBUG | XNIO-1 task-19 | undertow.request.security |     | Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@407530a7 for /user/page/pageQuery
+26 三月 2019 | 10:55:58,219 | DEBUG | XNIO-1 task-19 | undertow.request.security |     | Authentication result was ATTEMPTED for /user/page/pageQuery
+26 三月 2019 | 10:55:59,385 | DEBUG | XNIO-1 I/O-1 | io.undertow.request |     | Matched default handler path /user/page/pageQuery
+26 三月 2019 | 10:55:59,386 | DEBUG | XNIO-1 task-20 | undertow.request.security |     | Attempting to authenticate /user/page/pageQuery, authentication required: false
+26 三月 2019 | 10:55:59,386 | DEBUG | XNIO-1 task-20 | undertow.request.security |     | Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@407530a7 for /user/page/pageQuery
+26 三月 2019 | 10:55:59,386 | DEBUG | XNIO-1 task-20 | undertow.request.security |     | Authentication result was ATTEMPTED for /user/page/pageQuery
+26 三月 2019 | 10:56:00,361 | DEBUG | XNIO-1 I/O-1 | io.undertow.request |     | Matched default handler path /user/page/pageQuery
+26 三月 2019 | 10:56:00,362 | DEBUG | XNIO-1 task-21 | undertow.request.security |     | Attempting to authenticate /user/page/pageQuery, authentication required: false
+26 三月 2019 | 10:56:00,362 | DEBUG | XNIO-1 task-21 | undertow.request.security |     | Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@407530a7 for /user/page/pageQuery
+26 三月 2019 | 10:56:00,362 | DEBUG | XNIO-1 task-21 | undertow.request.security |     | Authentication result was ATTEMPTED for /user/page/pageQuery
+26 三月 2019 | 10:56:02,450 | DEBUG | XNIO-1 I/O-1 | io.undertow.request |     | Matched default handler path /user/page/pageQuery
+26 三月 2019 | 10:56:02,450 | DEBUG | XNIO-1 task-22 | undertow.request.security |     | Attempting to authenticate /user/page/pageQuery, authentication required: false
+26 三月 2019 | 10:56:02,450 | DEBUG | XNIO-1 task-22 | undertow.request.security |     | Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@407530a7 for /user/page/pageQuery
+26 三月 2019 | 10:56:02,451 | DEBUG | XNIO-1 task-22 | undertow.request.security |     | Authentication result was ATTEMPTED for /user/page/pageQuery
+26 三月 2019 | 10:56:06,537 | DEBUG | XNIO-1 I/O-1 | io.undertow.request |     | Matched default handler path /user/page/pageQuery
+26 三月 2019 | 10:56:06,538 | DEBUG | XNIO-1 task-23 | undertow.request.security |     | Attempting to authenticate /user/page/pageQuery, authentication required: false
+26 三月 2019 | 10:56:06,538 | DEBUG | XNIO-1 task-23 | undertow.request.security |     | Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@407530a7 for /user/page/pageQuery
+26 三月 2019 | 10:56:06,538 | DEBUG | XNIO-1 task-23 | undertow.request.security |     | Authentication result was ATTEMPTED for /user/page/pageQuery
+26 三月 2019 | 10:56:09,625 | DEBUG | XNIO-1 I/O-1 | io.undertow.request |     | Matched default handler path /user/page/pageQuery
+26 三月 2019 | 10:56:09,626 | DEBUG | XNIO-1 task-24 | undertow.request.security |     | Attempting to authenticate /user/page/pageQuery, authentication required: false
+26 三月 2019 | 10:56:09,626 | DEBUG | XNIO-1 task-24 | undertow.request.security |     | Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@407530a7 for /user/page/pageQuery
+26 三月 2019 | 10:56:09,626 | DEBUG | XNIO-1 task-24 | undertow.request.security |     | Authentication result was ATTEMPTED for /user/page/pageQuery
+26 三月 2019 | 10:56:10,897 | DEBUG | XNIO-1 I/O-1 | io.undertow.request |     | Matched default handler path /user/page/pageQuery
+26 三月 2019 | 10:56:10,898 | DEBUG | XNIO-1 task-25 | undertow.request.security |     | Attempting to authenticate /user/page/pageQuery, authentication required: false
+26 三月 2019 | 10:56:10,898 | DEBUG | XNIO-1 task-25 | undertow.request.security |     | Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@407530a7 for /user/page/pageQuery
+26 三月 2019 | 10:56:10,898 | DEBUG | XNIO-1 task-25 | undertow.request.security |     | Authentication result was ATTEMPTED for /user/page/pageQuery
+26 三月 2019 | 10:56:47,763 | DEBUG | XNIO-1 I/O-8 | io.undertow.request |     | Timing out idle connection from /127.0.0.1:57607
+26 三月 2019 | 10:57:10,951 | DEBUG | XNIO-1 I/O-1 | io.undertow.request |     | Timing out idle connection from /127.0.0.1:57608

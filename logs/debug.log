@@ -130,5 +130,3 @@
 26 三月 2019 | 14:19:34,814 | DEBUG | XNIO-4 task-3 | undertow.request.security |     | Attempting to authenticate /user/page/pageQuery, authentication required: false
 26 三月 2019 | 14:19:34,815 | DEBUG | XNIO-4 task-3 | undertow.request.security |     | Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@592caa87 for /user/page/pageQuery
 26 三月 2019 | 14:19:34,815 | DEBUG | XNIO-4 task-3 | undertow.request.security |     | Authentication result was ATTEMPTED for /user/page/pageQuery
-26 三月 2019 | 14:20:34,863 | DEBUG | XNIO-4 I/O-7 | io.undertow.request |     | Timing out idle connection from /127.0.0.1:16094
-26 三月 2019 | 14:20:35,054 | DEBUG | XNIO-4 I/O-5 | io.undertow.request |     | Timing out idle connection from /127.0.0.1:16092
